@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>VoIPNorms Awesome App</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+<div id="container" class="container-fluid">
+    <form name="ipcForm" onSubmit="JavaScript:sendForm(event)">
+        <div class="form-group">
+            <label for="username">Endpoint Admin User:</label>
+            <input type="text" class="form-control" id="username" aria-describedby="adminUser" placeholder="Enter Username">
+            <small id="adminUser" class="form-text text-muted">Admin or integrator user with API permission access.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Admin User Password:</label>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="xmlFile">In-Room Control XML File:</label>
+            <input type="file" class="form-control-file" id="inRoom" name="inRoom" accept=".xml">
+        </div>
+        <div class="form-group">
+            <label for="jsFile">Macro JS File:</label>
+            <input type="file" class="form-control-file" id="macro" name="macro" accept=".js">
+        </div>
+        <div class="form-group">
+            <label for="csvFile">Endpoint CSV File:</label>
+            <input type="file" class="form-control-file" id="endpointCSV" name="endpoint" accept=".csv">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h4 class="log">App Progress Log</h4>
+            <pre id="log-output" class="log-output"> </pre>
+        </div>
+    </div>
+</div>
+
+<script src='renderer.js'></script>
+</body>
+</html>

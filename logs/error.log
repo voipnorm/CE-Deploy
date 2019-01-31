@@ -1,0 +1,13 @@
+2019-01-30T21:33:31.713Z [31merror[39m: [31mLogging Chris[39m
+2019-01-30T21:33:32.637Z [31merror[39m: [31mLogging Chris[39m
+2019-01-30T21:33:32.893Z [31merror[39m: [31mLogging Chris[39m
+2019-01-30T21:33:33.077Z [31merror[39m: [31mLogging Chris[39m
+2019-01-30T21:33:33.247Z [31merror[39m: [31mLogging Chris[39m
+2019-01-30T21:33:33.399Z [31merror[39m: [31mLogging Chris[39m
+2019-01-30T21:33:33.585Z [31merror[39m: [31mLogging Chris[39m
+2019-01-30T23:03:15.401Z [31merror[39m: [31mENOENT: no such file or directory, scandir './endpoints/'[39m
+2019-01-30T23:04:01.842Z [31merror[39m: [31mENOENT: no such file or directory, scandir './endpoints/'[39m
+2019-01-30T23:06:37.020Z [31merror[39m: [31mENOENT: no such file or directory, scandir 'C:\fakepath\endpoints.csv'[39m
+2019-01-30T23:29:46.385Z [31merror[39m: [31mENOTDIR: not a directory, scandir '/Users/christno/Documents/ATestFolderElectron/endpoints.csv'[39m
+2019-01-30T23:31:07.896Z [31merror[39m: [31mfile is not defined[39m
+2019-01-31T01:24:04.185Z [31merror[39m: [31mUpdateEndpointStatus error: TypeError: Cannot read property 'username' of undefined[39m

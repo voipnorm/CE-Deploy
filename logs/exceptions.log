@@ -1,0 +1,150 @@
+2019-01-30T20:31:09.222Z [31merror[39m: [31muncaughtException: log.log.on is not a function[39m
+[31mTypeError: log.log.on is not a function[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/main.js:33:9)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/main.js:43:3)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:693:30)[39m
+[31m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:704:10)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:602:32)[39m
+[31m    at tryModuleLoad (internal/modules/cjs/loader.js:541:12)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:533:3)[39m
+[31m    at loadApplicationPackage (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:119:12)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:164:5)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:204:3)[39m
+2019-01-30T20:33:57.455Z [31merror[39m: [31muncaughtException: Unhandled error. ([object Object])[39m
+[31mError [ERR_UNHANDLED_ERROR]: Unhandled error. ([object Object])[39m
+[31m    at DerivedLogger.emit (events.js:171:17)[39m
+[31m    at DerivedLogger.transportEvent (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/logger.js:625:12)[39m
+[31m    at logToWindow.emit (events.js:187:15)[39m
+[31m    at onwriteError (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:443:12)[39m
+[31m    at onwrite (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:470:11)[39m
+[31m    at WritableState.onwrite (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:180:5)[39m
+[31m    at logToWindow.log (/Users/christno/WebstormProjects/electronFirstApp/logging/myTransport.js:25:9)[39m
+[31m    at logToWindow._write (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston-transport/index.js:81:19)[39m
+[31m    at doWrite (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:428:64)[39m
+[31m    at writeOrBuffer (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:417:5)[39m
+2019-01-30T20:40:45.277Z [31merror[39m: [31muncaughtException: log.stream.on is not a function[39m
+[31mTypeError: log.stream.on is not a function[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/main.js:33:12)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/main.js:43:3)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:693:30)[39m
+[31m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:704:10)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:602:32)[39m
+[31m    at tryModuleLoad (internal/modules/cjs/loader.js:541:12)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:533:3)[39m
+[31m    at loadApplicationPackage (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:119:12)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:164:5)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:204:3)[39m
+2019-01-30T20:41:14.216Z [31merror[39m: [31muncaughtException: Unexpected number in JSON at position 4[39m
+[31mSyntaxError: Unexpected number in JSON at position 4[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at stream.destroy.tailFile (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/transports/file.js:376:21)[39m
+[31m    at fs.read (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/tail-file.js:106:15)[39m
+[31m    at FSReqWrap.wrapper [as oncomplete] (fs.js:460:17)[39m
+2019-01-30T20:48:40.886Z [31merror[39m: [31muncaughtException: log.stream is not a function[39m
+[31mTypeError: log.stream is not a function[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/main.js:33:5)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/main.js:43:3)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:693:30)[39m
+[31m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:704:10)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:602:32)[39m
+[31m    at tryModuleLoad (internal/modules/cjs/loader.js:541:12)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:533:3)[39m
+[31m    at loadApplicationPackage (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:119:12)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:164:5)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/default_app.asar/main.js:204:3)[39m
+2019-01-30T21:06:01.011Z [31merror[39m: [31muncaughtException: Unexpected number in JSON at position 4[39m
+[31mSyntaxError: Unexpected number in JSON at position 4[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at stream.destroy.tailFile (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/transports/file.js:376:21)[39m
+[31m    at fs.read (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/tail-file.js:106:15)[39m
+[31m    at FSReqWrap.wrapper [as oncomplete] (fs.js:460:17)[39m
+2019-01-30T21:06:56.797Z [31merror[39m: [31muncaughtException: Unexpected number in JSON at position 4[39m
+[31mSyntaxError: Unexpected number in JSON at position 4[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at stream.destroy.tailFile (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/transports/file.js:376:21)[39m
+[31m    at fs.read (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/tail-file.js:106:15)[39m
+[31m    at FSReqWrap.wrapper [as oncomplete] (fs.js:460:17)[39m
+2019-01-30T21:40:11.764Z [31merror[39m: [31muncaughtException: Unexpected number in JSON at position 4[39m
+[31mSyntaxError: Unexpected number in JSON at position 4[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at stream.destroy.tailFile (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/transports/file.js:376:21)[39m
+[31m    at fs.read (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/tail-file.js:106:15)[39m
+[31m    at FSReqWrap.wrapper [as oncomplete] (fs.js:460:17)[39m
+2019-01-30T21:40:11.769Z [31merror[39m: [31muncaughtException: Unexpected number in JSON at position 4[39m
+[31mSyntaxError: Unexpected number in JSON at position 4[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at stream.destroy.tailFile (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/transports/file.js:376:21)[39m
+[31m    at fs.read (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/tail-file.js:106:15)[39m
+[31m    at FSReqWrap.wrapper [as oncomplete] (fs.js:460:17)[39m
+2019-01-30T21:41:39.855Z [31merror[39m: [31muncaughtException: Unexpected number in JSON at position 4[39m
+[31mSyntaxError: Unexpected number in JSON at position 4[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at stream.destroy.tailFile (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/transports/file.js:376:21)[39m
+[31m    at fs.read (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/tail-file.js:106:15)[39m
+[31m    at FSReqWrap.wrapper [as oncomplete] (fs.js:460:17)[39m
+2019-01-30T21:41:39.860Z [31merror[39m: [31muncaughtException: Unexpected number in JSON at position 4[39m
+[31mSyntaxError: Unexpected number in JSON at position 4[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at stream.destroy.tailFile (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/transports/file.js:376:21)[39m
+[31m    at fs.read (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/tail-file.js:106:15)[39m
+[31m    at FSReqWrap.wrapper [as oncomplete] (fs.js:460:17)[39m
+2019-01-30T21:48:03.086Z [31merror[39m: [31muncaughtException: Unexpected number in JSON at position 4[39m
+[31mSyntaxError: Unexpected number in JSON at position 4[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at stream.destroy.tailFile (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/transports/file.js:376:21)[39m
+[31m    at fs.read (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/tail-file.js:106:15)[39m
+[31m    at FSReqWrap.wrapper [as oncomplete] (fs.js:460:17)[39m
+2019-01-30T21:48:03.091Z [31merror[39m: [31muncaughtException: Unexpected number in JSON at position 4[39m
+[31mSyntaxError: Unexpected number in JSON at position 4[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at stream.destroy.tailFile (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/transports/file.js:376:21)[39m
+[31m    at fs.read (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/tail-file.js:106:15)[39m
+[31m    at FSReqWrap.wrapper [as oncomplete] (fs.js:460:17)[39m
+2019-01-30T21:48:52.437Z [31merror[39m: [31muncaughtException: Unexpected number in JSON at position 4[39m
+[31mSyntaxError: Unexpected number in JSON at position 4[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at stream.destroy.tailFile (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/transports/file.js:376:21)[39m
+[31m    at fs.read (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/tail-file.js:106:15)[39m
+[31m    at FSReqWrap.wrapper [as oncomplete] (fs.js:460:17)[39m
+2019-01-30T21:48:52.441Z [31merror[39m: [31muncaughtException: Unexpected number in JSON at position 4[39m
+[31mSyntaxError: Unexpected number in JSON at position 4[39m
+[31m    at JSON.parse (<anonymous>)[39m
+[31m    at stream.destroy.tailFile (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/transports/file.js:376:21)[39m
+[31m    at fs.read (/Users/christno/WebstormProjects/electronFirstApp/node_modules/winston/lib/winston/tail-file.js:106:15)[39m
+[31m    at FSReqWrap.wrapper [as oncomplete] (fs.js:460:17)[39m
+2019-01-30T23:40:16.980Z [31merror[39m: [31muncaughtException: array is not defined[39m
+[31mReferenceError: array is not defined[39m
+[31m    at EventEmitter.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/main.js:30:32)[39m
+[31m    at EventEmitter.emit (events.js:182:13)[39m
+[31m    at WebContents.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/electron.asar/browser/api/web-contents.js:334:13)[39m
+[31m    at WebContents.emit (events.js:182:13)[39m
+2019-01-30T23:41:10.827Z [31merror[39m: [31muncaughtException: this.processFiles is not a function[39m
+[31mTypeError: this.processFiles is not a function[39m
+[31m    at EventEmitter.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/main.js:31:10)[39m
+[31m    at EventEmitter.emit (events.js:182:13)[39m
+[31m    at WebContents.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/electron.asar/browser/api/web-contents.js:334:13)[39m
+[31m    at WebContents.emit (events.js:182:13)[39m
+2019-01-31T01:21:25.462Z [31merror[39m: [31muncaughtException: Cannot find module 'cisco-tp-client'[39m
+[31mError: Cannot find module 'cisco-tp-client'[39m
+[31m    at Module._resolveFilename (internal/modules/cjs/loader.js:584:15)[39m
+[31m    at Function.Module._resolveFilename (/Users/christno/WebstormProjects/electronFirstApp/node_modules/electron/dist/Electron.app/Contents/Resources/electron.asar/common/reset-search-paths.js:43:12)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:510:25)[39m
+[31m    at Module.require (internal/modules/cjs/loader.js:640:17)[39m
+[31m    at require (internal/modules/cjs/helpers.js:20:18)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/lib/endpoint.js:3:23)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/lib/endpoint.js:54:3)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:693:30)[39m
+[31m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:704:10)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:602:32)[39m
+2019-01-31T01:22:16.024Z [31merror[39m: [31muncaughtException: xml2js is not defined[39m
+[31mReferenceError: xml2js is not defined[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/lib/endpoint.js:8:14)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/lib/endpoint.js:54:3)[39m
+[31m    at Module._compile (internal/modules/cjs/loader.js:693:30)[39m
+[31m    at Object.Module._extensions..js (internal/modules/cjs/loader.js:704:10)[39m
+[31m    at Module.load (internal/modules/cjs/loader.js:602:32)[39m
+[31m    at tryModuleLoad (internal/modules/cjs/loader.js:541:12)[39m
+[31m    at Function.Module._load (internal/modules/cjs/loader.js:533:3)[39m
+[31m    at Module.require (internal/modules/cjs/loader.js:640:17)[39m
+[31m    at require (internal/modules/cjs/helpers.js:20:18)[39m
+[31m    at Object.<anonymous> (/Users/christno/WebstormProjects/electronFirstApp/lib/deployment.js:4:18)[39m
