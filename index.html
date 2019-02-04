@@ -4,41 +4,78 @@
     <meta charset="UTF-8">
     <title>VoIPNorms Awesome App</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src='scripts.js'></script>
+
 </head>
 
 <body>
 <div id="container" class="container-fluid">
-    <form name="ipcForm" onSubmit="JavaScript:sendForm(event)">
-        <div class="form-group">
-            <label for="username">Endpoint Admin User:</label>
-            <input type="text" class="form-control" id="username" aria-describedby="adminUser" placeholder="Enter Username">
-            <small id="adminUser" class="form-text text-muted">Admin or integrator user with API permission access.</small>
+    <form id="ipcForm">
+        <div class="form-group row" id="usernameDiv">
+            <label for="username" class="col-auto col-form-label">Username</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="username" placeholder="Username" required="true">
+                <small id="adminUser" class="form-text text-muted">Admin or integrator username.</small>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Admin User Password:</label>
-            <input type="password" class="form-control" id="password" placeholder="Password">
+        <div class="form-group row" id="passwordDiv">
+            <label for="password" class="col-auto col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="password" placeholder="Password" required="true">
+                <small id="adminPwd" class="form-text text-muted">Admin or integrator password.</small>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="xmlFile">In-Room Control XML File:</label>
-            <input type="file" class="form-control-file" id="inRoom" name="inRoom" accept=".xml">
+        <div class="form-group row" id="endpointCsvDiv">
+            <label class="col-auto col-form-label">Endpoint File:</label>
+            <div class="col-auto">
+                <input type="file" class="form-control-file" id="endpointCSV" name="endpoint" accept=".csv" required="true">
+                <small id="epSmall" class="form-text text-muted">CSV containing video endpoint IP addresses or FQDN.</small>
+            </div>
         </div>
-        <div class="form-group">
-            <label for="jsFile">Macro JS File:</label>
-            <input type="file" class="form-control-file" id="macro" name="macro" accept=".js">
-        </div>
-        <div class="form-group">
-            <label for="csvFile">Endpoint CSV File:</label>
-            <input type="file" class="form-control-file" id="endpointCSV" name="endpoint" accept=".csv">
-        </div>
+        <fieldset class="form-group">
+            <div class="row">
+                <legend class="col-form-label col-auto pt-0">Upload Options</legend>
+                <div class="col-auto">
+                    <div class="form-check">
+                        <input type="checkbox" id="inRoomCheck" onclick="inRoomCheckBox()">
+                        <label for="inRoomCheck" class="col-auto col-form-label">Room Controls</label>
+                    </div>
+                    <div class="form-check" id="inRoomFileDiv" style="display:none">
+                        <input type="file" class="form-control-file" id="inRoom" name="inRoom" accept=".xml">
+                        <small id="rcSmall" class="form-text text-muted">XML File for your room controls.</small>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="macroCheck" onclick="macroCheckBox()">
+                        <label for="macroCheck" class="col-auto col-form-label">Macros</label>
+                    </div>
+                    <div class="form-check" id="macroFileDiv" style="display:none">
+                        <input type="file" class="form-control-file" id="macro" name="macro" accept=".js">
+                        <small id="macroSmall" class="form-text text-muted">Javascript Macro file.</small>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="wallpaperCheck" onclick="wallpaperCheckBox()">
+                        <label for="wallpaperCheck" class="col-auto col-form-label">Wallpaper</label>
+                    </div>
+                    <div class="form-check" id="wallpaperFileDiv" style="display:none">
+                        <input type="file" class="form-control-file" id="wallpaper" name="wallpaper" accept="image/jpeg">
+                        <small id="wallSmall" class="form-text text-muted">Wallpaper file to be displayed on your endpoint.</small>
+                    </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
-
+                </div>
+            </div>
+        </fieldset>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="button" id='deploy' class="btn btn-primary">Deploy</button>
+            </div>
+        </div>
     </form>
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <h4 class="log">App Progress Log</h4>
-            <pre id="log-output" class="log-output"> </pre>
-        </div>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated"  role="progressbar" id="progressBar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <div class="col-auto">
+        <small id="log-output" class="form-text text-muted"></small>
     </div>
 </div>
 

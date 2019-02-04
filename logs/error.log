@@ -11,3 +11,65 @@
 2019-01-30T23:29:46.385Z [31merror[39m: [31mENOTDIR: not a directory, scandir '/Users/christno/Documents/ATestFolderElectron/endpoints.csv'[39m
 2019-01-30T23:31:07.896Z [31merror[39m: [31mfile is not defined[39m
 2019-01-31T01:24:04.185Z [31merror[39m: [31mUpdateEndpointStatus error: TypeError: Cannot read property 'username' of undefined[39m
+2019-01-31T21:40:28.408Z [31merror[39m: [31mUpdateEndpointStatus error: Error: File not found: undefined[39m
+2019-01-31T21:45:33.774Z [31merror[39m: [31mdeployEndpoint error: Error: File not found: undefined[39m
+2019-01-31T21:47:54.159Z [31merror[39m: [31mdeployEndpoint error: Error: File not found: undefined[39m
+2019-01-31T21:49:17.227Z [31merror[39m: [31mdeployEndpoint error: Error: File not found: undefined[39m
+2019-01-31T21:50:51.946Z [31merror[39m: [31mDeployMacros error: TypeError [ERR_INVALID_CALLBACK]: Callback must be a function[39m
+2019-01-31T21:56:33.202Z [31merror[39m: [31mDeployMacros error: ReferenceError: body is not defined[39m
+2019-01-31T23:47:27.400Z [31merror[39m: [31mDeployMacros error: TypeError: Cannot read property 'username' of undefined[39m
+2019-01-31T23:50:32.102Z [31merror[39m: [31mDeployMacros error: TypeError: Cannot read property 'username' of undefined[39m
+2019-02-02T04:04:49.268Z [31merror[39m: [31mDeployMacros error: TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be one of type string, Buffer, or URL. Received type object[39m
+2019-02-02T04:04:49.270Z [31merror[39m: [31mFailure on Main:[object Object][39m
+2019-02-04T01:52:25.182Z [31merror[39m: [31mupload failed:connect ETIMEDOUT 10.27.42.123:80[39m
+2019-02-04T01:52:25.183Z [31merror[39m: [31mDeployMacros error: [object Object][39m
+2019-02-04T01:55:04.018Z [31merror[39m: [31mupload failed:connect ETIMEDOUT 10.27.42.123:80[39m
+2019-02-04T01:55:04.019Z [31merror[39m: [31mDeployMacros error: [object Object][39m
+2019-02-04T01:57:16.813Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T01:57:16.825Z [31merror[39m: [31mDeployMacros error: [object Object][39m
+2019-02-04T02:48:06.035Z [31merror[39m: [31mFailure on Main:ReferenceError: self is not defined[39m
+2019-02-04T02:51:54.523Z [31merror[39m: [31mFailure on Main:ReferenceError: fileName is not defined[39m
+2019-02-04T03:08:02.328Z [31merror[39m: [31mFailure on Main:Error: ENOTDIR: not a directory, scandir '/Users/christno/Pictures/Apple plus Cisco-1.JPG'[39m
+2019-02-04T04:22:58.122Z [31merror[39m: [31mupload failed:no auth mechanism defined[39m
+2019-02-04T04:22:58.123Z [31merror[39m: [31mupload failed:no auth mechanism defined[39m
+2019-02-04T04:24:01.531Z [31merror[39m: [31mupload failed:no auth mechanism defined[39m
+2019-02-04T04:24:01.532Z [31merror[39m: [31mupload failed:no auth mechanism defined[39m
+2019-02-04T04:24:48.615Z [31merror[39m: [31mupload failed:no auth mechanism defined[39m
+2019-02-04T04:24:48.617Z [31merror[39m: [31mupload failed:no auth mechanism defined[39m
+2019-02-04T04:28:44.599Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T04:29:27.738Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T04:34:23.741Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T05:27:48.271Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T05:27:50.601Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T05:27:51.780Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T05:27:52.957Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T05:29:19.183Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T05:29:31.368Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T05:30:19.343Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T05:30:20.691Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T05:30:21.670Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T05:31:46.457Z [31merror[39m: [31mupload failed:Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T05:42:48.769Z [31merror[39m: [31mupload failed:[39m
+2019-02-04T05:47:15.486Z [31merror[39m: [31mupload failed:[39m
+2019-02-04T05:47:31.623Z [31merror[39m: [31mupload failed:[39m
+2019-02-04T05:49:56.591Z [31merror[39m: [31mupload failed:[39m
+2019-02-04T05:54:28.633Z [31merror[39m: [31mupload failed:[39m
+2019-02-04T05:58:05.210Z [31merror[39m: [31mupload failed:[39m
+2019-02-04T06:03:31.002Z [31merror[39m: [31mupload failed:[39m
+2019-02-04T06:03:53.476Z [31merror[39m: [31mupload failed:[39m
+2019-02-04T17:49:40.005Z [31merror[39m: [31mInvalid URI "http:///api/wallpapers"[39m
+2019-02-04T17:53:53.317Z [31merror[39m: [31mInvalid URI "http:///api/wallpapers"[39m
+2019-02-04T18:45:28.201Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T18:45:44.323Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T18:48:36.688Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T18:50:19.874Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T18:52:44.926Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T18:54:12.688Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T18:58:54.776Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T19:09:28.577Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T19:09:37.315Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T19:12:00.041Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T19:12:09.599Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T19:16:02.640Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T19:16:11.624Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T19:21:26.653Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
