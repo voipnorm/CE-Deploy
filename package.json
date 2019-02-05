@@ -1,21 +1,15 @@
 {
-  "name": "electron-quick-start",
+  "name": "CE-Deploy",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
-  "main": "main.js",
+  "description": "Deployment app for Cisco Video Endpoints",
+  "main": "./lib/main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "repository": "https://github.com/voipnorm/InRoom-Macro-Deployer.git",
+  "keywords": [],
+  "author": "Chris Norman",
+  "license": "MIT",
   "devDependencies": {
     "electron": "^4.0.2"
   },
@@ -24,7 +18,6 @@
     "cisco-tp-client": "^0.1.0",
     "exceljs": "^1.7.0",
     "jquery": "^3.3.1",
-    "lodash": "^4.17.11",
     "popper.js": "^1.14.7",
     "request": "^2.88.0",
     "winston": "^3.2.1",

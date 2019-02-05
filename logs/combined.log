@@ -5150,3 +5150,1332 @@
 [32m	            </Command>[39m
 2019-02-05T00:10:40.775Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m
 2019-02-05T00:10:41.279Z [32minfo[39m: [32m100% completed[39m
+2019-02-05T00:14:59.473Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T00:14:59.478Z [32minfo[39m: [32mtrue[39m
+2019-02-05T00:14:59.478Z [32minfo[39m: [32mData: adminGiantnorm012/Users/christno/Documents/ATestFolderElectron/DialPad Macro.jsnull/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T00:14:59.482Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/DialPad Macro.js',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T00:14:59.484Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T00:14:59.485Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:14:59.485Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:14:59.485Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T00:14:59.499Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:14:59.500Z [32minfo[39m: 
+2019-02-05T00:14:59.500Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:14:59.500Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T00:14:59.503Z [32minfo[39m: [32mReading Macro file: const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:14:59.503Z [32minfo[39m: [32mXML Macro process building[39m
+2019-02-05T00:14:59.504Z [32minfo[39m: [32mMacro name DialPad Macro.js[39m
+2019-02-05T00:14:59.504Z [32minfo[39m: [32mMacroXML output: [39m
+[32m                    <Command>[39m
+[32m	        				<Macros>[39m
+[32m 		                        <Macro>[39m
+[32m 			                        <Save>[39m
+[32m 				                        <Name>DialPad Macro.js</Name>[39m
+[32m 				                        <OverWrite>True</OverWrite>[39m
+[32m 				                        <body>const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();</body>[39m
+[32m 			                        </Save>[39m
+[32m 		                        </Macro>[39m
+[32m 	                        </Macros>[39m
+[32m                    </Command>[39m
+2019-02-05T00:14:59.511Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T00:14:59.916Z [32minfo[39m: [32m100% completed[39m
+2019-02-05T00:16:34.600Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T00:16:34.600Z [32minfo[39m: [32mtrue[39m
+2019-02-05T00:16:34.601Z [32minfo[39m: [32mData: adminGiantnorm012/Users/christno/Documents/ATestFolderElectron/DialPad Macro.jsnull/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T00:16:34.601Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/DialPad Macro.js',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T00:16:34.602Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T00:16:34.602Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:16:34.602Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:16:34.602Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T00:16:34.606Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:16:34.606Z [32minfo[39m: 
+2019-02-05T00:16:34.606Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:16:34.606Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T00:16:34.606Z [32minfo[39m: [32mReading Macro file: const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:16:34.607Z [32minfo[39m: [32mXML Macro process building[39m
+2019-02-05T00:16:34.607Z [32minfo[39m: [32mMacro name DialPad Macro.js[39m
+2019-02-05T00:16:34.607Z [32minfo[39m: [32mMacroXML output: [39m
+[32m                    <Command>[39m
+[32m	        				<Macros>[39m
+[32m 		                        <Macro>[39m
+[32m 			                        <Save>[39m
+[32m 				                        <Name>DialPad Macro.js</Name>[39m
+[32m 				                        <OverWrite>True</OverWrite>[39m
+[32m 				                        <body>const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();</body>[39m
+[32m 			                        </Save>[39m
+[32m 		                        </Macro>[39m
+[32m 	                        </Macros>[39m
+[32m                    </Command>[39m
+2019-02-05T00:16:34.609Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T00:16:35.154Z [32minfo[39m: [32m100% completed[39m
+2019-02-05T00:18:56.852Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T00:18:56.857Z [32minfo[39m: [32mtrue[39m
+2019-02-05T00:18:56.857Z [32minfo[39m: [32mData: adminGiantnorm012/Users/christno/Documents/ATestFolderElectron/DialPad Macro.jsnull/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T00:18:56.861Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/DialPad Macro.js',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T00:18:56.863Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T00:18:56.864Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:18:56.864Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:18:56.864Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T00:18:56.878Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:18:56.878Z [32minfo[39m: 
+2019-02-05T00:18:56.878Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:18:56.878Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T00:18:56.879Z [32minfo[39m: [32mReading Macro file: const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:18:56.879Z [32minfo[39m: [32mXML Macro process building[39m
+2019-02-05T00:18:56.880Z [32minfo[39m: [32mMacro name DialPad Macro.js[39m
+2019-02-05T00:18:56.880Z [32minfo[39m: [32mMacroXML output: [39m
+[32m                    <Command>[39m
+[32m	        				<Macros>[39m
+[32m 		                        <Macro>[39m
+[32m 			                        <Save>[39m
+[32m 				                        <Name>DialPad Macro.js</Name>[39m
+[32m 				                        <OverWrite>True</OverWrite>[39m
+[32m 				                        <body>const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();</body>[39m
+[32m 			                        </Save>[39m
+[32m 		                        </Macro>[39m
+[32m 	                        </Macros>[39m
+[32m                    </Command>[39m
+2019-02-05T00:18:56.887Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T00:18:57.338Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><MacroSaveResult status="Error">[39m
+[32m  <Reason>Invalid characters in macro name</Reason>[39m
+[32m</MacroSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-05T00:18:57.338Z [32minfo[39m: [32m100% completed[39m
+2019-02-05T00:24:02.046Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T00:24:02.051Z [32minfo[39m: [32mtrue[39m
+2019-02-05T00:24:02.051Z [32minfo[39m: [32mData: adminGiantnorm012/Users/christno/Documents/ATestFolderElectron/DialPad Macro.jsnull/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T00:24:02.054Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/DialPad Macro.js',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T00:24:02.057Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T00:24:02.058Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:24:02.058Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:24:02.058Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T00:24:02.073Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:24:02.073Z [32minfo[39m: 
+2019-02-05T00:24:02.074Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:24:02.074Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T00:24:02.075Z [32minfo[39m: [32mReading Macro file: const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:25:39.573Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T00:25:39.578Z [32minfo[39m: [32mtrue[39m
+2019-02-05T00:25:39.578Z [32minfo[39m: [32mData: adminGiantnorm012/Users/christno/Documents/ATestFolderElectron/DialPad Macro.jsnull/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T00:25:39.581Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/DialPad Macro.js',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T00:25:39.584Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T00:25:39.584Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:25:39.584Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:25:39.585Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T00:25:39.600Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:25:39.600Z [32minfo[39m: 
+2019-02-05T00:25:39.600Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:25:39.600Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T00:25:39.601Z [32minfo[39m: [32mReading Macro file: const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:28:29.767Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T00:28:29.772Z [32minfo[39m: [32mtrue[39m
+2019-02-05T00:28:29.773Z [32minfo[39m: [32mData: adminGiantnorm012/Users/christno/Documents/ATestFolderElectron/DialPad Macro.jsnull/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T00:28:29.775Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/DialPad Macro.js',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T00:28:29.778Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T00:28:29.778Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:28:29.779Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:28:29.779Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T00:28:29.793Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:28:29.793Z [32minfo[39m: 
+2019-02-05T00:28:29.794Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:28:29.794Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T00:28:29.794Z [32minfo[39m: [32mReading Macro file: const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:32:44.071Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T00:32:44.080Z [32minfo[39m: [32mtrue[39m
+2019-02-05T00:32:44.080Z [32minfo[39m: [32mData: adminGiantnomr012/Users/christno/Documents/ATestFolderElectron/DialPad Macro.jsnull/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T00:32:44.085Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnomr012',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/DialPad Macro.js',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T00:32:44.088Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T00:32:44.088Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:32:44.088Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:32:44.089Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T00:32:44.109Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:32:44.109Z [32minfo[39m: 
+2019-02-05T00:32:44.109Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:32:44.109Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T00:32:44.110Z [32minfo[39m: [32mReading Macro file: const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:32:44.111Z [32minfo[39m: [32mescape results: const xapi = require(&apos;xapi&apos;);[39m
+
+[32mvar did = &quot;&quot;;[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on(&apos;UserInterface Extensions Widget Action&apos;, (event) =&gt; {[39m
+[32m    [39m
+[32m    if (event.Type === &apos;pressed&apos;) {[39m
+[32m      console.log(&apos;Unknown button pressed&apos;, event);[39m
+[32m      if(event.WidgetId === &quot;dialButton&quot;){[39m
+[32m        xapi.command(&quot;dial&quot;, {Number:did});[39m
+[32m        did=&quot;&quot;;[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId===&quot;backSpace&quot;){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log(&quot;DID new Value :&quot;+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === &quot;released&quot;){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log(&quot;release triggered&quot;);[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget UnsetValue&apos;, {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log(&quot;button reset done&quot;);[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget SetValue&apos;, {[39m
+[32m          WidgetId: &quot;textBox&quot;,[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:32:44.111Z [32minfo[39m: [32mXML Macro process building[39m
+2019-02-05T00:32:44.111Z [32minfo[39m: [32mMacro name DialPad Macro.js[39m
+2019-02-05T00:32:44.112Z [32minfo[39m: [32mMacroXML output: [39m
+[32m                    <Command>[39m
+[32m	        				<Macros>[39m
+[32m 		                        <Macro>[39m
+[32m 			                        <Save>[39m
+[32m 				                        <Name>DialPad Macro.js</Name>[39m
+[32m 				                        <OverWrite>True</OverWrite>[39m
+[32m 				                        <body>const xapi = require(&apos;xapi&apos;);[39m
+
+[32mvar did = &quot;&quot;;[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on(&apos;UserInterface Extensions Widget Action&apos;, (event) =&gt; {[39m
+[32m    [39m
+[32m    if (event.Type === &apos;pressed&apos;) {[39m
+[32m      console.log(&apos;Unknown button pressed&apos;, event);[39m
+[32m      if(event.WidgetId === &quot;dialButton&quot;){[39m
+[32m        xapi.command(&quot;dial&quot;, {Number:did});[39m
+[32m        did=&quot;&quot;;[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId===&quot;backSpace&quot;){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log(&quot;DID new Value :&quot;+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === &quot;released&quot;){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log(&quot;release triggered&quot;);[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget UnsetValue&apos;, {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log(&quot;button reset done&quot;);[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget SetValue&apos;, {[39m
+[32m          WidgetId: &quot;textBox&quot;,[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();</body>[39m
+[32m 			                        </Save>[39m
+[32m 		                        </Macro>[39m
+[32m 	                        </Macros>[39m
+[32m                    </Command>[39m
+2019-02-05T00:32:44.123Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T00:32:49.891Z [31merror[39m: [31mDeployment error :StatusCodeError: 401 - "401 Unauthorized\n\nThis server could not verify that you are authorized to access the document you requested. Either you supplied the wrong credentials (e.g., bad password), or your browser does not understand how to supply the credentials required.\n\n   "[39m
+2019-02-05T00:32:49.892Z [32minfo[39m: [32m100% completed[39m
+2019-02-05T00:33:10.318Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T00:33:10.319Z [32minfo[39m: [32mtrue[39m
+2019-02-05T00:33:10.319Z [32minfo[39m: [32mData: adminGiantnorm012/Users/christno/Documents/ATestFolderElectron/DialPad Macro.jsnull/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T00:33:10.320Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/DialPad Macro.js',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T00:33:10.320Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T00:33:10.320Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:33:10.320Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:33:10.320Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T00:33:10.322Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:33:10.323Z [32minfo[39m: 
+2019-02-05T00:33:10.323Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:33:10.323Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T00:33:10.323Z [32minfo[39m: [32mReading Macro file: const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:33:10.324Z [32minfo[39m: [32mescape results: const xapi = require(&apos;xapi&apos;);[39m
+
+[32mvar did = &quot;&quot;;[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on(&apos;UserInterface Extensions Widget Action&apos;, (event) =&gt; {[39m
+[32m    [39m
+[32m    if (event.Type === &apos;pressed&apos;) {[39m
+[32m      console.log(&apos;Unknown button pressed&apos;, event);[39m
+[32m      if(event.WidgetId === &quot;dialButton&quot;){[39m
+[32m        xapi.command(&quot;dial&quot;, {Number:did});[39m
+[32m        did=&quot;&quot;;[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId===&quot;backSpace&quot;){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log(&quot;DID new Value :&quot;+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === &quot;released&quot;){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log(&quot;release triggered&quot;);[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget UnsetValue&apos;, {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log(&quot;button reset done&quot;);[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget SetValue&apos;, {[39m
+[32m          WidgetId: &quot;textBox&quot;,[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:33:10.325Z [32minfo[39m: [32mXML Macro process building[39m
+2019-02-05T00:33:10.325Z [32minfo[39m: [32mMacro name DialPad Macro.js[39m
+2019-02-05T00:33:10.326Z [32minfo[39m: [32mMacroXML output: [39m
+[32m                    <Command>[39m
+[32m	        				<Macros>[39m
+[32m 		                        <Macro>[39m
+[32m 			                        <Save>[39m
+[32m 				                        <Name>DialPad Macro.js</Name>[39m
+[32m 				                        <OverWrite>True</OverWrite>[39m
+[32m 				                        <body>const xapi = require(&apos;xapi&apos;);[39m
+
+[32mvar did = &quot;&quot;;[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on(&apos;UserInterface Extensions Widget Action&apos;, (event) =&gt; {[39m
+[32m    [39m
+[32m    if (event.Type === &apos;pressed&apos;) {[39m
+[32m      console.log(&apos;Unknown button pressed&apos;, event);[39m
+[32m      if(event.WidgetId === &quot;dialButton&quot;){[39m
+[32m        xapi.command(&quot;dial&quot;, {Number:did});[39m
+[32m        did=&quot;&quot;;[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId===&quot;backSpace&quot;){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log(&quot;DID new Value :&quot;+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === &quot;released&quot;){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log(&quot;release triggered&quot;);[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget UnsetValue&apos;, {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log(&quot;button reset done&quot;);[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget SetValue&apos;, {[39m
+[32m          WidgetId: &quot;textBox&quot;,[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();</body>[39m
+[32m 			                        </Save>[39m
+[32m 		                        </Macro>[39m
+[32m 	                        </Macros>[39m
+[32m                    </Command>[39m
+2019-02-05T00:33:10.328Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T00:33:10.729Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><MacroSaveResult status="Error">[39m
+[32m  <Reason>Invalid characters in macro name</Reason>[39m
+[32m</MacroSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-05T00:33:10.729Z [32minfo[39m: [32m100% completed[39m
+2019-02-05T00:39:34.507Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T00:39:34.517Z [32minfo[39m: [32mtrue[39m
+2019-02-05T00:39:34.518Z [32minfo[39m: [32mData: adminGiantnorm012/Users/christno/Documents/ATestFolderElectron/DialPad Macro.jsnull/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T00:39:34.522Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/DialPad Macro.js',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T00:39:34.526Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T00:39:34.526Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:39:34.527Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:39:34.527Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T00:39:34.546Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:39:34.546Z [32minfo[39m: 
+2019-02-05T00:39:34.547Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:39:34.547Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T00:39:34.547Z [32minfo[39m: [32mReading Macro file: const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:39:34.548Z [32minfo[39m: [32mescape results: const xapi = require(&apos;xapi&apos;);[39m
+
+[32mvar did = &quot;&quot;;[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on(&apos;UserInterface Extensions Widget Action&apos;, (event) =&gt; {[39m
+[32m    [39m
+[32m    if (event.Type === &apos;pressed&apos;) {[39m
+[32m      console.log(&apos;Unknown button pressed&apos;, event);[39m
+[32m      if(event.WidgetId === &quot;dialButton&quot;){[39m
+[32m        xapi.command(&quot;dial&quot;, {Number:did});[39m
+[32m        did=&quot;&quot;;[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId===&quot;backSpace&quot;){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log(&quot;DID new Value :&quot;+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === &quot;released&quot;){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log(&quot;release triggered&quot;);[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget UnsetValue&apos;, {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log(&quot;button reset done&quot;);[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget SetValue&apos;, {[39m
+[32m          WidgetId: &quot;textBox&quot;,[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T00:39:34.549Z [32minfo[39m: [32mXML Macro process building[39m
+2019-02-05T00:39:34.549Z [32minfo[39m: [32mMacro name DialPad Macro.js[39m
+2019-02-05T00:39:34.549Z [32minfo[39m: [32mMacroXML output: [39m
+[32m                    <Command>[39m
+[32m	        				<Macros>[39m
+[32m 		                        <Macro>[39m
+[32m 			                        <Save>[39m
+[32m 				                        <Name>DialPad Macro.js</Name>[39m
+[32m 				                        <OverWrite>True</OverWrite>[39m
+[32m 				                        <body>const xapi = require(&apos;xapi&apos;);[39m
+
+[32mvar did = &quot;&quot;;[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on(&apos;UserInterface Extensions Widget Action&apos;, (event) =&gt; {[39m
+[32m    [39m
+[32m    if (event.Type === &apos;pressed&apos;) {[39m
+[32m      console.log(&apos;Unknown button pressed&apos;, event);[39m
+[32m      if(event.WidgetId === &quot;dialButton&quot;){[39m
+[32m        xapi.command(&quot;dial&quot;, {Number:did});[39m
+[32m        did=&quot;&quot;;[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId===&quot;backSpace&quot;){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log(&quot;DID new Value :&quot;+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === &quot;released&quot;){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log(&quot;release triggered&quot;);[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget UnsetValue&apos;, {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log(&quot;button reset done&quot;);[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget SetValue&apos;, {[39m
+[32m          WidgetId: &quot;textBox&quot;,[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();</body>[39m
+[32m 			                        </Save>[39m
+[32m 		                        </Macro>[39m
+[32m 	                        </Macros>[39m
+[32m                    </Command>[39m
+2019-02-05T00:39:34.561Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T00:39:35.158Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><MacroSaveResult status="Error">[39m
+[32m  <Reason>Invalid characters in macro name</Reason>[39m
+[32m</MacroSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-05T00:39:35.158Z [32minfo[39m: [32m100% completed[39m
+2019-02-05T17:50:30.679Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T17:50:30.682Z [32minfo[39m: [32mtrue[39m
+2019-02-05T17:50:30.682Z [32minfo[39m: [32mData: adminGiantnorm012/Users/christno/Documents/ATestFolderElectron/DialPad Macro.jsDialPad2null/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T17:50:30.686Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/DialPad Macro.js',[39m
+[32m  'DialPad2',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T17:50:30.689Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T17:50:30.689Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T17:50:30.689Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T17:50:30.689Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T17:50:30.708Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T17:50:30.709Z [32minfo[39m: 
+2019-02-05T17:50:30.709Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T17:50:30.709Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T17:50:30.710Z [32minfo[39m: [32mReading Macro file: const xapi = require('xapi');[39m
+
+[32mvar did = "";[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on('UserInterface Extensions Widget Action', (event) => {[39m
+[32m    [39m
+[32m    if (event.Type === 'pressed') {[39m
+[32m      console.log('Unknown button pressed', event);[39m
+[32m      if(event.WidgetId === "dialButton"){[39m
+[32m        xapi.command("dial", {Number:did});[39m
+[32m        did="";[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId==="backSpace"){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log("DID new Value :"+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === "released"){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log("release triggered");[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command('UserInterface Extensions Widget UnsetValue', {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log("button reset done");[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command('UserInterface Extensions Widget SetValue', {[39m
+[32m          WidgetId: "textBox",[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T17:50:30.710Z [32minfo[39m: [32mescape results: const xapi = require(&apos;xapi&apos;);[39m
+
+[32mvar did = &quot;&quot;;[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on(&apos;UserInterface Extensions Widget Action&apos;, (event) =&gt; {[39m
+[32m    [39m
+[32m    if (event.Type === &apos;pressed&apos;) {[39m
+[32m      console.log(&apos;Unknown button pressed&apos;, event);[39m
+[32m      if(event.WidgetId === &quot;dialButton&quot;){[39m
+[32m        xapi.command(&quot;dial&quot;, {Number:did});[39m
+[32m        did=&quot;&quot;;[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId===&quot;backSpace&quot;){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log(&quot;DID new Value :&quot;+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === &quot;released&quot;){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log(&quot;release triggered&quot;);[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget UnsetValue&apos;, {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log(&quot;button reset done&quot;);[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget SetValue&apos;, {[39m
+[32m          WidgetId: &quot;textBox&quot;,[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();[39m
+2019-02-05T17:50:30.711Z [32minfo[39m: [32mXML Macro process building[39m
+2019-02-05T17:50:30.711Z [32minfo[39m: [32mMacro name DialPad2[39m
+2019-02-05T17:50:30.711Z [32minfo[39m: [32mMacroXML output: [39m
+[32m                    <Command>[39m
+[32m	        				<Macros>[39m
+[32m 		                        <Macro>[39m
+[32m 			                        <Save>[39m
+[32m 				                        <Name>DialPad2</Name>[39m
+[32m 				                        <OverWrite>True</OverWrite>[39m
+[32m 				                        <body>const xapi = require(&apos;xapi&apos;);[39m
+
+[32mvar did = &quot;&quot;;[39m
+[32mfunction listenToGui() {[39m
+[32m  xapi.event.on(&apos;UserInterface Extensions Widget Action&apos;, (event) =&gt; {[39m
+[32m    [39m
+[32m    if (event.Type === &apos;pressed&apos;) {[39m
+[32m      console.log(&apos;Unknown button pressed&apos;, event);[39m
+[32m      if(event.WidgetId === &quot;dialButton&quot;){[39m
+[32m        xapi.command(&quot;dial&quot;, {Number:did});[39m
+[32m        did=&quot;&quot;;[39m
+[32m        textBoxUpdate(did);[39m
+[32m      }else if(event.WidgetId===&quot;backSpace&quot;){[39m
+[32m        backSpaceString(did);[39m
+[32m      }else{[39m
+[32m        const newdigit = event.Value;[39m
+[32m        did = did+newdigit;[39m
+[32m        console.log(&quot;DID new Value :&quot;+did);[39m
+[32m        textBoxUpdate(did);[39m
+[32m        resetButton(event.WidgetId);[39m
+[32m      }[39m
+[32m    }[39m
+[32m    if(event.Type === &quot;released&quot;){[39m
+[32m      resetButton(event.WidgetId);[39m
+[32m      console.log(&quot;release triggered&quot;);[39m
+[32m    }[39m
+[32m  });[39m
+[32m}[39m
+[32mfunction resetButton(widgetID){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget UnsetValue&apos;, {[39m
+[32m          WidgetId: widgetID,[39m
+[32m        });[39m
+[32m  [39m
+[32m  console.log(&quot;button reset done&quot;);[39m
+[32m}[39m
+[32mfunction backSpaceString(string){[39m
+[32m  did = string.slice(0, -1);[39m
+[32m  textBoxUpdate(did);[39m
+[32m}[39m
+
+[32mfunction textBoxUpdate(stringValue){[39m
+[32m  xapi.command(&apos;UserInterface Extensions Widget SetValue&apos;, {[39m
+[32m          WidgetId: &quot;textBox&quot;,[39m
+[32m          Value: stringValue,[39m
+[32m        });[39m
+[32m}[39m
+
+[32mlistenToGui();</body>[39m
+[32m 			                        </Save>[39m
+[32m 		                        </Macro>[39m
+[32m 	                        </Macros>[39m
+[32m                    </Command>[39m
+2019-02-05T17:50:30.720Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T17:50:34.490Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><MacroSaveResult status="OK"/>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-05T17:50:34.490Z [32minfo[39m: [32m100% completed[39m
+2019-02-05T18:46:33.360Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T18:46:33.365Z [32minfo[39m: [32mfalse[39m
+2019-02-05T18:46:33.366Z [32minfo[39m: [32mData: adminGiantnorm012nullundefinednull/Users/christno/Documents/ATestFolderElectron/endpoints.csv/Users/christno/Pictures/me and pope.jpg[39m
+2019-02-05T18:46:33.369Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  null,[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  '/Users/christno/Pictures/me and pope.jpg' ][39m
+2019-02-05T18:46:33.372Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T18:46:33.372Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T18:46:33.372Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T18:46:33.372Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T18:46:33.389Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T18:46:33.389Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T18:46:33.389Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T18:46:33.390Z [32minfo[39m: [32m/Users/christno/Pictures/me and pope.jpg[39m
+2019-02-05T18:46:33.390Z [32minfo[39m: [32mPosting wall paper[39m
+2019-02-05T18:46:33.391Z [32minfo[39m: [32m{"file":{"value":{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"emitClose":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{},"_eventsCount":1,"path":"/Users/christno/Pictures/me and pope.jpg","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false},"options":{"filename":"me and pope.jpg","contentType":"image/jpeg"}}}[39m
+2019-02-05T18:46:45.269Z [32minfo[39m: [32mUpload successful!  Server responded with Body Content: {"info": "New wallpaper image uploaded successfully."}[39m
+2019-02-05T18:46:45.270Z [32minfo[39m: [32m100% completed[39m
