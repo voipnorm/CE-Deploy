@@ -73,3 +73,20 @@
 2019-02-04T19:16:02.640Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
 2019-02-04T19:16:11.624Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
 2019-02-04T19:21:26.653Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T21:46:54.242Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T22:21:13.521Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T23:03:55.260Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:07:27.588Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:15:27.402Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:18:23.737Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:19:17.627Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:21:20.107Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:23:13.545Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:23:59.201Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:25:33.530Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:26:38.967Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:58:43.114Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:58:56.020Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-05T00:02:37.113Z [31merror[39m: [31mPost xml error: RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T00:02:37.113Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T00:10:40.775Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m

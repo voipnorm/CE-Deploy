@@ -13,7 +13,7 @@ function createWindow(){
         width:550,
         height: 700,
         show: false,
-        resizable: true,//change to false later
+        resizable: false,//change to false later
     });
 
     window.loadURL(`file://${__dirname}/index.html`);
@@ -21,7 +21,7 @@ function createWindow(){
         window.show();
     });
 
-    window.webContents.openDevTools();
+    //window.webContents.openDevTools();
 
     let contents = window.webContents;
 

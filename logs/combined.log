@@ -3826,3 +3826,1327 @@
 2019-02-04T19:21:26.653Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
 2019-02-04T19:21:32.614Z [32minfo[39m: [32mUpload successful!  Server responded with Body Content: {"info": "New wallpaper image uploaded successfully."}[39m
 2019-02-04T19:21:32.615Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T21:32:35.614Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T21:32:35.624Z [32minfo[39m: [32mfalse[39m
+2019-02-04T21:32:35.625Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T21:32:35.629Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T21:32:35.634Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T21:32:35.634Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T21:32:35.635Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T21:32:35.635Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T21:32:35.656Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T21:32:35.657Z [32minfo[39m: 
+2019-02-04T21:32:35.657Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T21:32:35.657Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T21:32:35.658Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T21:32:35.668Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T21:35:47.018Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T21:35:47.021Z [32minfo[39m: [32mfalse[39m
+2019-02-04T21:35:47.021Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T21:35:47.021Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T21:35:47.022Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T21:35:47.022Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T21:35:47.022Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T21:35:47.022Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T21:35:47.026Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T21:35:47.027Z [32minfo[39m: 
+2019-02-04T21:35:47.027Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T21:35:47.027Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T21:35:47.027Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T21:35:47.029Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T21:37:10.037Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T21:37:10.040Z [32minfo[39m: [32mfalse[39m
+2019-02-04T21:37:10.042Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T21:37:10.044Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T21:37:10.047Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T21:37:10.047Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T21:37:10.048Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T21:37:10.048Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T21:37:10.064Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T21:37:10.064Z [32minfo[39m: 
+2019-02-04T21:37:10.065Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T21:37:10.065Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T21:37:10.065Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T21:37:10.071Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T21:39:16.937Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T21:39:16.940Z [32minfo[39m: [32mfalse[39m
+2019-02-04T21:39:16.940Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T21:39:16.944Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T21:39:16.946Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T21:39:16.947Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T21:39:16.947Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T21:39:16.947Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T21:39:16.962Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T21:39:16.962Z [32minfo[39m: 
+2019-02-04T21:39:16.963Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T21:39:16.963Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T21:39:16.964Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T21:39:16.964Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T21:39:16.969Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T21:39:16.970Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T21:46:54.203Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T21:46:54.209Z [32minfo[39m: [32mfalse[39m
+2019-02-04T21:46:54.209Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T21:46:54.212Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T21:46:54.215Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T21:46:54.215Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T21:46:54.216Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T21:46:54.216Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T21:46:54.232Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T21:46:54.232Z [32minfo[39m: 
+2019-02-04T21:46:54.232Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T21:46:54.233Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T21:46:54.233Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T21:46:54.234Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T21:46:54.238Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T21:46:54.242Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T21:46:54.242Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T21:46:54.751Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="Error">[39m
+[32m  <Reason>Failed to parse xml</Reason>[39m
+[32m</PanelSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T22:21:13.479Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T22:21:13.484Z [32minfo[39m: [32mfalse[39m
+2019-02-04T22:21:13.485Z [32minfo[39m: [32mData: adminnullnull/Users/christno/Documents/ATestFolderElectron/endpoints.csv/Users/christno/Pictures/Apple plus Cisco-1.JPG[39m
+2019-02-04T22:21:13.490Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  '',[39m
+[32m  null,[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  '/Users/christno/Pictures/Apple plus Cisco-1.JPG' ][39m
+2019-02-04T22:21:13.493Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T22:21:13.493Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T22:21:13.493Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T22:21:13.493Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T22:21:13.510Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T22:21:13.510Z [32minfo[39m: 
+2019-02-04T22:21:13.511Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T22:21:13.511Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T22:21:13.512Z [32minfo[39m: [32m/Users/christno/Pictures/Apple plus Cisco-1.JPG[39m
+2019-02-04T22:21:13.512Z [32minfo[39m: [32mPosting wall paper[39m
+2019-02-04T22:21:13.513Z [32minfo[39m: [32m{"file":{"value":{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"emitClose":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{},"_eventsCount":1,"path":"/Users/christno/Pictures/Apple plus Cisco-1.JPG","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false},"options":{"filename":"Apple plus Cisco-1.JPG","contentType":"image/jpeg"}}}[39m
+2019-02-04T22:21:13.519Z [32minfo[39m: [32m/Users/christno/Pictures/Apple plus Cisco-1.JPG[39m
+2019-02-04T22:21:13.519Z [32minfo[39m: [32mPosting wall paper[39m
+2019-02-04T22:21:13.520Z [32minfo[39m: [32m{"file":{"value":{"_readableState":{"objectMode":false,"highWaterMark":65536,"buffer":{"head":null,"tail":null,"length":0},"length":0,"pipes":null,"pipesCount":0,"flowing":null,"ended":false,"endEmitted":false,"reading":false,"sync":true,"needReadable":false,"emittedReadable":false,"readableListening":false,"resumeScheduled":false,"emitClose":false,"destroyed":false,"defaultEncoding":"utf8","awaitDrain":0,"readingMore":false,"decoder":null,"encoding":null},"readable":true,"_events":{},"_eventsCount":1,"path":"/Users/christno/Pictures/Apple plus Cisco-1.JPG","fd":null,"flags":"r","mode":438,"end":null,"autoClose":true,"bytesRead":0,"closed":false},"options":{"filename":"Apple plus Cisco-1.JPG","contentType":"image/jpeg"}}}[39m
+2019-02-04T22:21:13.520Z [32minfo[39m: [32mUpload successful!  Server responded with Body Content: undefined[39m
+2019-02-04T22:21:13.521Z [31merror[39m: [31mDeployment error :Error: Invalid URI "http:///api/wallpapers"[39m
+2019-02-04T22:21:19.155Z [32minfo[39m: [32mUpload successful!  Server responded with Body Content: 401 Unauthorized[39m
+
+[32mThis server could not verify that you are authorized to access the document you requested. Either you supplied the wrong credentials (e.g., bad password), or your browser does not understand how to supply the credentials required.[39m
+
+[32m   [39m
+2019-02-04T22:21:19.155Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T22:54:28.181Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T22:54:28.180Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T22:54:28.181Z [32minfo[39m: [32mfalse[39m
+2019-02-04T22:54:28.181Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T22:54:28.182Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T22:54:28.182Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T22:54:28.182Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T22:54:28.182Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T22:54:28.185Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T22:54:28.185Z [32minfo[39m: 
+2019-02-04T22:54:28.185Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T22:54:28.185Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T22:55:34.268Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T22:55:34.277Z [32minfo[39m: [32mfalse[39m
+2019-02-04T22:55:34.277Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T22:55:34.281Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T22:55:34.285Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T22:55:34.285Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T22:55:34.285Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T22:55:34.285Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T22:55:34.306Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T22:55:34.306Z [32minfo[39m: 
+2019-02-04T22:55:34.306Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T22:55:34.307Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T22:57:42.454Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T22:57:42.464Z [32minfo[39m: [32mfalse[39m
+2019-02-04T22:57:42.465Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T22:57:42.469Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T22:57:42.473Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T22:57:42.473Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T22:57:42.473Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T22:57:42.474Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T22:57:42.493Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T22:57:42.493Z [32minfo[39m: 
+2019-02-04T22:57:42.493Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T22:57:42.493Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T22:58:32.270Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T22:58:32.276Z [32minfo[39m: [32mfalse[39m
+2019-02-04T22:58:32.276Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T22:58:32.279Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T22:58:32.282Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T22:58:32.283Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T22:58:32.283Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T22:58:32.283Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T22:58:32.299Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T22:58:32.299Z [32minfo[39m: 
+2019-02-04T22:58:32.299Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T22:58:32.299Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:03:55.210Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:03:55.219Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:03:55.219Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:03:55.224Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:03:55.228Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:03:55.228Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:03:55.228Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:03:55.228Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:03:55.248Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:03:55.248Z [32minfo[39m: 
+2019-02-04T23:03:55.249Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:03:55.249Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:03:55.250Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:03:55.250Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:03:55.258Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:03:55.260Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:03:55.261Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:03:55.835Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="Error">[39m
+[32m  <Reason>Failed to parse xml</Reason>[39m
+[32m</PanelSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T23:05:54.627Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:05:54.632Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:05:54.633Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:05:54.636Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:05:54.639Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:05:54.639Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:05:54.639Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:05:54.639Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:05:54.654Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:05:54.655Z [32minfo[39m: 
+2019-02-04T23:05:54.655Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:05:54.655Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:07:27.553Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:07:27.558Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:07:27.558Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:07:27.562Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:07:27.565Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:07:27.565Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:07:27.565Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:07:27.565Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:07:27.580Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:07:27.581Z [32minfo[39m: 
+2019-02-04T23:07:27.581Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:07:27.581Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:07:27.582Z [32minfo[39m: [32m<Buffer 3c 45 78 74 65 6e 73 69 6f 6e 73 3e 3c 56 65 72 73 69 6f 6e 3e 31 2e 35 3c 2f 56 65 72 73 69 6f 6e 3e 3c 50 61 6e 65 6c 3e 0a 20 20 20 20 3c 50 61 6e ... >[39m
+2019-02-04T23:07:27.582Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:07:27.582Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:07:27.587Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:07:27.588Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:07:27.588Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:07:28.076Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="Error">[39m
+[32m  <Reason>Failed to parse xml</Reason>[39m
+[32m</PanelSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T23:14:33.743Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:14:33.747Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:14:33.748Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:14:33.751Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:14:33.753Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:14:33.754Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:14:33.754Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:14:33.754Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:14:33.769Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:14:33.769Z [32minfo[39m: 
+2019-02-04T23:14:33.770Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:14:33.770Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:15:27.366Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:15:27.372Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:15:27.373Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:15:27.376Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:15:27.379Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:15:27.379Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:15:27.379Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:15:27.379Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:15:27.394Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:15:27.394Z [32minfo[39m: 
+2019-02-04T23:15:27.394Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:15:27.395Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:15:27.395Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:15:27.396Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:15:27.401Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:15:27.402Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:15:27.402Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:15:27.919Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="Error">[39m
+[32m  <Reason>Failed to parse xml</Reason>[39m
+[32m</PanelSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T23:18:23.702Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:18:23.706Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:18:23.706Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:18:23.710Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:18:23.713Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:18:23.713Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:18:23.713Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:18:23.714Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:18:23.729Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:18:23.729Z [32minfo[39m: 
+2019-02-04T23:18:23.729Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:18:23.729Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:18:23.730Z [32minfo[39m: [32m<Buffer 3c 45 78 74 65 6e 73 69 6f 6e 73 3e 3c 56 65 72 73 69 6f 6e 3e 31 2e 35 3c 2f 56 65 72 73 69 6f 6e 3e 3c 50 61 6e 65 6c 3e 0a 20 20 20 20 3c 50 61 6e ... >[39m
+2019-02-04T23:18:23.731Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:18:23.731Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:18:23.736Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:18:23.737Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:18:23.737Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:18:24.229Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="Error">[39m
+[32m  <Reason>Failed to parse xml</Reason>[39m
+[32m</PanelSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T23:19:17.589Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:19:17.595Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:19:17.596Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:19:17.599Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:19:17.601Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:19:17.602Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:19:17.602Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:19:17.602Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:19:17.618Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:19:17.618Z [32minfo[39m: 
+2019-02-04T23:19:17.619Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:19:17.619Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:19:17.620Z [32minfo[39m: [32m[object Undefined][39m
+2019-02-04T23:19:17.620Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:19:17.620Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:19:17.625Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:19:17.627Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:19:17.627Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:19:18.029Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="Error">[39m
+[32m  <Reason>Failed to parse xml</Reason>[39m
+[32m</PanelSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T23:21:20.071Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:21:20.076Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:21:20.077Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:21:20.081Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:21:20.083Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:21:20.083Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:21:20.084Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:21:20.084Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:21:20.099Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:21:20.099Z [32minfo[39m: 
+2019-02-04T23:21:20.099Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:21:20.099Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:21:20.100Z [32minfo[39m: [32m<Buffer 3c 45 78 74 65 6e 73 69 6f 6e 73 3e 3c 56 65 72 73 69 6f 6e 3e 31 2e 35 3c 2f 56 65 72 73 69 6f 6e 3e 3c 50 61 6e 65 6c 3e 0a 20 20 20 20 3c 50 61 6e ... >[39m
+2019-02-04T23:21:20.101Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:21:20.101Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:21:20.106Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:21:20.107Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:21:20.107Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:21:20.543Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="Error">[39m
+[32m  <Reason>Failed to parse xml</Reason>[39m
+[32m</PanelSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T23:23:13.503Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:23:13.509Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:23:13.509Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:23:13.512Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:23:13.515Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:23:13.515Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:23:13.516Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:23:13.516Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:23:13.533Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:23:13.533Z [32minfo[39m: 
+2019-02-04T23:23:13.533Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:23:13.534Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:23:13.535Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:23:13.535Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:23:13.543Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:23:13.545Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:23:13.545Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:23:13.974Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="Error">[39m
+[32m  <Reason>Failed to parse xml</Reason>[39m
+[32m</PanelSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T23:23:59.167Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:23:59.171Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:23:59.171Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:23:59.175Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:23:59.178Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:23:59.178Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:23:59.179Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:23:59.179Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:23:59.193Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:23:59.193Z [32minfo[39m: 
+2019-02-04T23:23:59.193Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:23:59.194Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:23:59.194Z [32minfo[39m: [32m<Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions>[39m
+2019-02-04T23:23:59.195Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:23:59.195Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:23:59.200Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:23:59.201Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:23:59.201Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:23:59.612Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="Error">[39m
+[32m  <Reason>Failed to parse xml</Reason>[39m
+[32m</PanelSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T23:25:33.492Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:25:33.495Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:25:33.496Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:25:33.499Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:25:33.502Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:25:33.502Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:25:33.503Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:25:33.503Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:25:33.519Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:25:33.520Z [32minfo[39m: 
+2019-02-04T23:25:33.520Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:25:33.521Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:25:33.522Z [32minfo[39m: [32mescape results: <Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions>[39m
+2019-02-04T23:25:33.522Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:25:33.522Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:25:33.528Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body><Extensions><Version>1.5</Version><Panel>[39m
+[32m    <PanelId>audiocall</PanelId>[39m
+[32m    <Type>Home</Type>[39m
+[32m    <Icon>Handset</Icon>[39m
+[32m    <Order>1</Order>[39m
+[32m    <Color>#30D557</Color>[39m
+[32m    <Name>Audio Call</Name>[39m
+[32m  </Panel>[39m
+[32m  </Extensions></body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:25:33.530Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:25:33.530Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:25:33.968Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="Error">[39m
+[32m  <Reason>Failed to parse xml</Reason>[39m
+[32m</PanelSaveResult>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T23:26:38.932Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:26:38.937Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:26:38.938Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:26:38.941Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:26:38.943Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:26:38.944Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:26:38.944Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:26:38.944Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:26:38.959Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:26:38.959Z [32minfo[39m: 
+2019-02-04T23:26:38.960Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:26:38.960Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:26:38.961Z [32minfo[39m: [32mescape results: &lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;[39m
+2019-02-04T23:26:38.961Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:26:38.961Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body>&lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;</body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:26:38.966Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body>&lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;</body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:26:38.967Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:26:38.967Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:26:39.381Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="OK"/>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T23:58:43.021Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:58:43.024Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:58:43.025Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:58:43.025Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:58:43.025Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:58:43.025Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:58:43.025Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:58:43.026Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:58:43.029Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:58:43.029Z [32minfo[39m: 
+2019-02-04T23:58:43.029Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:58:43.029Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:58:43.030Z [32minfo[39m: [32mescape results: &lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;[39m
+2019-02-04T23:58:43.112Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:58:43.112Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body>&lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;</body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:58:43.113Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body>&lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;</body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:58:43.114Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:58:43.115Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:58:43.552Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="OK"/>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-04T23:58:56.015Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-04T23:58:56.015Z [32minfo[39m: [32mfalse[39m
+2019-02-04T23:58:56.015Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-04T23:58:56.015Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-04T23:58:56.015Z [32minfo[39m: [32m25% completed[39m
+2019-02-04T23:58:56.016Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:58:56.016Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-04T23:58:56.016Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-04T23:58:56.018Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:58:56.018Z [32minfo[39m: 
+2019-02-04T23:58:56.018Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-04T23:58:56.018Z [32minfo[39m: [32m50% completed[39m
+2019-02-04T23:58:56.019Z [32minfo[39m: [32mescape results: &lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;[39m
+2019-02-04T23:58:56.019Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-04T23:58:56.019Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body>&lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;</body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:58:56.020Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body>&lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;</body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-04T23:58:56.020Z [31merror[39m: [31mError: Invalid URI "http:///putxml"[39m
+2019-02-04T23:58:56.021Z [32minfo[39m: [32m100% completed[39m
+2019-02-04T23:58:56.657Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="OK"/>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-05T00:02:37.077Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T00:02:37.082Z [32minfo[39m: [32mfalse[39m
+2019-02-05T00:02:37.083Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T00:02:37.086Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T00:02:37.089Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T00:02:37.089Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:02:37.090Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:02:37.090Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T00:02:37.105Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:02:37.105Z [32minfo[39m: 
+2019-02-05T00:02:37.105Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:02:37.105Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T00:02:37.106Z [32minfo[39m: [32mescape results: &lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;[39m
+2019-02-05T00:02:37.106Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-05T00:02:37.107Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body>&lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;</body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-05T00:02:37.111Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body>&lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;</body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-05T00:02:37.113Z [31merror[39m: [31mPost xml error: RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T00:02:37.113Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T00:02:37.677Z [32minfo[39m: [32m<?xml version="1.0"?>[39m
+[32m<Command><PanelSaveResult status="OK"/>[39m
+[32m</Command>[39m
+[32m[39m
+2019-02-05T00:10:40.741Z [32minfo[39m: [32mFormSubmitted[object MouseEvent][39m
+2019-02-05T00:10:40.746Z [32minfo[39m: [32mfalse[39m
+2019-02-05T00:10:40.746Z [32minfo[39m: [32mData: adminGiantnorm012null/Users/christno/Documents/ATestFolderElectron/audioOnly.xml/Users/christno/Documents/ATestFolderElectron/endpoints.csvnull[39m
+2019-02-05T00:10:40.749Z [32minfo[39m: [32m[ 'admin',[39m
+[32m  'Giantnorm012',[39m
+[32m  null,[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/audioOnly.xml',[39m
+[32m  '/Users/christno/Documents/ATestFolderElectron/endpoints.csv',[39m
+[32m  null ][39m
+2019-02-05T00:10:40.752Z [32minfo[39m: [32m25% completed[39m
+2019-02-05T00:10:40.752Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:10:40.752Z [32minfo[39m: [32m/Users/christno/Documents/ATestFolderElectron/endpoints.csv[39m
+2019-02-05T00:10:40.753Z [32minfo[39m: [32mReading CSV, creating endpoint array for deployment...[39m
+2019-02-05T00:10:40.767Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:10:40.768Z [32minfo[39m: 
+2019-02-05T00:10:40.768Z [32minfo[39m: [32m10.27.42.118[39m
+2019-02-05T00:10:40.768Z [32minfo[39m: [32m50% completed[39m
+2019-02-05T00:10:40.769Z [32minfo[39m: [32mescape results: &lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;[39m
+2019-02-05T00:10:40.769Z [32minfo[39m: [32mXML in Room control process building[39m
+2019-02-05T00:10:40.770Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body>&lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;</body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-05T00:10:40.774Z [32minfo[39m: [32m[39m
+[32m	            <Command>[39m
+[32m		            <UserInterface>[39m
+[32m			            <Extensions>[39m
+[32m				            <Panel>[39m
+[32m					            <Save>[39m
+[32m						            <PanelId>newPanel</PanelId>[39m
+[32m						            <body>&lt;Extensions&gt;&lt;Version&gt;1.5&lt;/Version&gt;&lt;Panel&gt;[39m
+[32m    &lt;PanelId&gt;audiocall&lt;/PanelId&gt;[39m
+[32m    &lt;Type&gt;Home&lt;/Type&gt;[39m
+[32m    &lt;Icon&gt;Handset&lt;/Icon&gt;[39m
+[32m    &lt;Order&gt;1&lt;/Order&gt;[39m
+[32m    &lt;Color&gt;#30D557&lt;/Color&gt;[39m
+[32m    &lt;Name&gt;Audio Call&lt;/Name&gt;[39m
+[32m  &lt;/Panel&gt;[39m
+[32m  &lt;/Extensions&gt;</body>[39m
+[32m					            </Save>[39m
+[32m				            </Panel>		[39m
+[32m			            </Extensions>[39m
+[32m		            </UserInterface>[39m
+[32m	            </Command>[39m
+2019-02-05T00:10:40.775Z [31merror[39m: [31mDeployment error :RequestError: Error: Invalid URI "http:///putxml"[39m
+2019-02-05T00:10:41.279Z [32minfo[39m: [32m100% completed[39m
