@@ -4,9 +4,11 @@
   "description": "Deployment app for Cisco Video Endpoints",
   "main": "lib/main.js",
   "scripts": {
-    "package-mac": "rimraf CE-Deploy-* && electron-packager . --overwrite --platform=darwin --arch=x64 --icon=app --prune=true --out=release-builds",
-    "package-win": "rimraf CE-Deploy-* &&electron-packager . CE-Deploy --overwrite --asar=true --platform=win32 --arch=ia32 --icon=app --prune=true --out=release-builds --version-string.CompanyName=VoIPNorm --version-string.FileDescription=CE --version-string.ProductName='CE-Deploy'",
-    "start": "electron ."
+    "postinstall": "install-app-deps",
+    "start": "npm install && electron ./app",
+    "pack": "build --dir",
+    "dist": "build"
+
   },
   "repository": "https://github.com/voipnorm/InRoom-Macro-Deployer.git",
   "keywords": [],
@@ -14,7 +16,10 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^4.0.2",
+    "electron-builder": "^20.38.5",
     "electron-packager": "^13.0.1",
+    "electron-winstaller": "^2.7.0",
+    "path": "^0.12.7",
     "rimraf": "^2.6.3"
   },
   "dependencies": {
@@ -25,5 +30,26 @@
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7",
     "request": "^2.88.0"
+  },
+  "build": {
+    "appId": "com.electron.CEDeploy",
+    "dmg": {
+      "contents": [
+        {
+          "x": 110,
+          "y": 150
+        },
+        {
+          "x": 240,
+          "y": 150,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "win": {
+      "target": "squirrel",
+      "icon": "build/icon.ico"
+    }
   }
 }
