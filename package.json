@@ -2,8 +2,10 @@
   "name": "CE-Deploy",
   "version": "1.0.0",
   "description": "Deployment app for Cisco Video Endpoints",
-  "main": "./lib/main.js",
+  "main": "lib/main.js",
   "scripts": {
+    "package-mac": "rimraf CE-Deploy-* && electron-packager . --overwrite --platform=darwin --arch=x64 --icon=app --prune=true --out=release-builds",
+    "package-win": "rimraf CE-Deploy-* &&electron-packager . CE-Deploy --overwrite --asar=true --platform=win32 --arch=ia32 --icon=app --prune=true --out=release-builds --version-string.CompanyName=VoIPNorm --version-string.FileDescription=CE --version-string.ProductName='CE-Deploy'",
     "start": "electron ."
   },
   "repository": "https://github.com/voipnorm/InRoom-Macro-Deployer.git",
@@ -11,16 +13,17 @@
   "author": "Chris Norman",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^4.0.2"
+    "electron": "^4.0.2",
+    "electron-packager": "^13.0.1",
+    "rimraf": "^2.6.3"
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
     "cisco-tp-client": "^0.1.0",
+    "electron-log": "^3.0.1",
     "exceljs": "^1.7.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.7",
-    "request": "^2.88.0",
-    "winston": "^3.2.1",
-    "winston-transport": "^4.3.0"
+    "request": "^2.88.0"
   }
 }
