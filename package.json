@@ -31,6 +31,9 @@
     "request": "^2.88.0"
   },
   "build": {
+    "electronDownload": {
+      "cache": "...path..."
+    },
     "appId": "com.electron.CEDeploy",
     "dmg": {
       "contents": [
