@@ -5,10 +5,9 @@
   "main": "lib/main.js",
   "scripts": {
     "postinstall": "install-app-deps",
-    "start": "npm install && electron ./app",
+    "start": "electron ./lib/main",
     "pack": "build --dir",
     "dist": "build"
-
   },
   "repository": "https://github.com/voipnorm/InRoom-Macro-Deployer.git",
   "keywords": [],
