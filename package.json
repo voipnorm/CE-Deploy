@@ -1,6 +1,6 @@
 {
   "name": "CE-Deploy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Deployment app for Cisco Video Endpoints",
   "main": "lib/main.js",
   "scripts": {
@@ -15,11 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^4.0.2",
-    "electron-builder": "^20.38.5",
-    "electron-packager": "^13.0.1",
-    "electron-winstaller": "^2.7.0",
-    "path": "^0.12.7",
-    "rimraf": "^2.6.3"
+    "electron-builder": "^20.38.5"
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
@@ -31,9 +27,6 @@
     "request": "^2.88.0"
   },
   "build": {
-    "electronDownload" : {
-      "cache": "~/.cache/electron/"
-    },
     "appId": "com.electron.CEDeploy",
     "dmg": {
       "contents": [
