@@ -14,6 +14,7 @@
   "author": "Chris Norman",
   "license": "MIT",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.1",
     "electron": "^4.0.2",
     "electron-builder": "^20.38.5"
   },

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>CE-Deploy</title>
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <script>window.$ = window.jQuery = require('jquery');</script>
     <script src='scripts.js'></script>
 
 </head>
@@ -16,14 +17,19 @@
             <label for="username" class="col-auto col-form-label">Username</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" id="username" placeholder="Username" required="true">
-                <small id="adminUser" class="form-text text-muted">Local Admin or integrator username.</small>
+                <small id="adminUser" class="form-text text-muted">Local admin or integrator username.</small>
             </div>
         </div>
         <div class="form-group row" id="passwordDiv">
-            <label for="password" class="col-auto col-form-label">Password</label>
+            <label for="show_hide_password" class="col-auto col-form-label">Password</label>
             <div class="col-sm-10">
-                <input type="password" class="form-control" id="password" placeholder="Password" required="true">
-                <small id="adminPwd" class="form-text text-muted">Local Admin or integrator password.</small>
+                <div class="input-group" id="show_hide_password">
+                    <input class="form-control" id="password" type="password" required="true" placeholder="Password">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2"><a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a></span>
+                    </div>
+                </div>
+                <small id="passwordSM" class="form-text text-muted">Local admin or integrator password.</small>
             </div>
         </div>
         <div class="form-group row" id="endpointCsvDiv">
@@ -31,6 +37,16 @@
             <div class="col-auto">
                 <input type="file" class="form-control-file" id="endpointCSV" name="endpoint" accept=".csv" required="true">
                 <small id="epSmall" class="form-text text-muted">CSV containing video endpoint IP addresses or FQDN.</small>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-sm-10">
+                <button type="button" id='checkId' class="btn btn-secondary btn-sm" onclick="JavaScript:checkCredentials(event)">Check Credentials</button>
+            </div>
+        </div>
+        <div class="form-group-row" >
+            <div class="col-sm-10">
+                <h5 id="h5-output" style="visibility:visible;"></h5>
             </div>
         </div>
         <fieldset class="form-group">
@@ -73,6 +89,16 @@
                         <input type="file" class="form-control-file" id="wallpaper" name="wallpaper" accept="image/jpeg">
                         <small id="wallSmall" class="form-text text-muted">Wallpaper file to be displayed on your endpoint.</small>
                     </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="brandingCheck" onclick="brandingCheckBox()">
+                        <label for="wallpaperCheck" class="col-auto col-form-label">Branding</label>
+                    </div>
+                    <div class="form-check" id="brandingFileDiv" style="display:none">
+                        <input type="file" class="form-control-file" id="brandingBackround" name="brandingBackground" accept="image/jpeg">
+                        <small id="brandBackSmall" class="form-text text-muted">Branding background file to be displayed on your endpoint.</small>
+                        <input type="file" class="form-control-file" id="brandingLogo" name="brandingLogo" accept="image/jpeg">
+                        <small id="brandLogoSmall" class="form-text text-muted">Branding logo file to be displayed on your endpoint.</small>
+                    </div>
 
                 </div>
             </div>
@@ -90,7 +116,6 @@
         <small id="log-output" class="form-text text-muted"></small>
     </div>
 </div>
-
 <script src='renderer.js'></script>
 </body>
 </html>
