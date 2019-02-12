@@ -1,6 +1,6 @@
 {
   "name": "CE-Deploy",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Deployment app for Cisco Video Endpoints",
   "main": "lib/main.js",
   "scripts": {
