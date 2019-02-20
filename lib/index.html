@@ -62,8 +62,17 @@
                         <label for="inRoomCheck" class="col-auto col-form-label">Room Controls</label>
                     </div>
                     <div class="form-check" id="inRoomFileDiv" style="display:none">
-                        <input type="file" class="form-control-file" id="inRoom" name="inRoom" accept=".xml">
-                        <small id="rcSmall" class="form-text text-muted">XML File for your room controls.</small>
+                        <div class="form-check">
+                            <input type="file" class="form-control-file" id="inRoom" name="inRoom" accept=".xml">
+                            <small id="rcSmall" class="form-text text-muted">XML File for single panel only.</small>
+                        </div>
+                        <div class="form-check">
+                            <label for="panelName" class="col-auto col-form-label">Panel ID</label>
+                            <div class="col-sm-10" >
+                                <input type="text" class="form-control" id="panelName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Panel ID">
+                                <small id="panelSmall" class="form-text text-muted">If panel ID already exists it will be overwritten.</small>
+                            </div>
+                        </div>
                     </div>
                     <div class="form-check">
                         <input type="checkbox" id="macroCheck" onclick="macroCheckBox()">
@@ -71,9 +80,11 @@
                     </div>
                     <div class="form-check" id="macroDiv">
                         <div class="form-group row" id="macroNameDiv" style="display:none">
-                            <label for="macroName" class="col-auto col-form-label">Macro Name</label>
-                            <div class="col-sm-10" >
-                                <input type="text" class="form-control" id="macroName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Macro name">
+                            <div class="form-check">
+                                <label for="macroName" class="col-auto col-form-label">Macro Name</label>
+                                <div class="col-sm-10" >
+                                    <input type="text" class="form-control" id="macroName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Macro name">
+                                </div>
                             </div>
                         </div>
                         <div class="form-check" id="macroFileDiv" style="display:none">
@@ -90,20 +101,29 @@
                         <label for="wallpaperCheck" class="col-auto col-form-label">Wallpaper</label>
                     </div>
                     <div class="form-check" id="wallpaperFileDiv" style="display:none">
-                        <input type="file" class="form-control-file" id="wallpaper" name="wallpaper" accept="image/jpeg">
-                        <small id="wallSmall" class="form-text text-muted">Wallpaper file to be displayed on your endpoint.</small>
+                        <div class="form-check">
+                            <input type="file" class="form-control-file" id="wallpaper" name="wallpaper" accept="image/jpeg">
+                            <small id="wallSmall" class="form-text text-muted">Wallpaper file to be displayed on your endpoint.</small>
+                        </div>
                     </div>
                     <div class="form-check">
                         <input type="checkbox" id="brandingCheck" onclick="brandingCheckBox()">
                         <label for="wallpaperCheck" class="col-auto col-form-label">Branding</label>
                     </div>
                     <div class="form-check" id="brandingFileDiv" style="display:none">
-                        <input type="file" class="form-control-file" id="brandingBackground" name="brandingBackground" accept="image/jpeg">
-                        <small id="brandBackSmall" class="form-text text-muted">Branding background file to be displayed on your endpoint.</small>
-                        <input type="file" class="form-control-file" id="brandingLogo" name="brandingLogo" accept="image/jpeg">
-                        <small id="brandLogoSmall" class="form-text text-muted">Branding logo file to be displayed on your endpoint.</small>
+                        <div class="form-check">
+                            <input type="file" class="form-control-file" id="brandingBackground" name="brandingBackground" accept="image/jpeg">
+                            <small id="brandBackSmall" class="form-text text-muted">Background file.</small>
+                        </div>
+                        <div class="form-check">
+                            <input type="file" class="form-control-file" id="brandingLogo" name="brandingLogo" accept="image/jpeg">
+                            <small id="brandLogoSmall" class="form-text text-muted">Logo during awake state.</small>
+                        </div>
+                        <div class="form-check">
+                            <input type="file" class="form-control-file" id="brandingHalfAwake" name="brandingHalfAwake" accept="image/jpeg">
+                            <small id="brandHalfAwakeSmall" class="form-text text-muted">Logo during halfwake state(leave blank if same as awake).</small>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </fieldset>
