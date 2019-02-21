@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.css">
     <script>window.$ = window.jQuery = require('jquery');</script>
     <script src='scripts.js'></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -62,16 +63,49 @@
                         <label for="inRoomCheck" class="col-auto col-form-label">Room Controls</label>
                     </div>
                     <div class="form-check" id="inRoomFileDiv" style="display:none">
-                        <div class="form-check">
-                            <input type="file" class="form-control-file" id="inRoom" name="inRoom" accept=".xml">
-                            <small id="rcSmall" class="form-text text-muted">XML File for single panel only.</small>
-                        </div>
-                        <div class="form-check">
-                            <label for="panelName" class="col-auto col-form-label">Panel ID</label>
-                            <div class="col-sm-10" >
-                                <input type="text" class="form-control" id="panelName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Panel ID">
-                                <small id="panelSmall" class="form-text text-muted">If panel ID already exists it will be overwritten.</small>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Panel</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Config</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="form-check">
+                                    <div>
+                                        <p>Single panel configuration.</p>
+                                        <input type="file" class="form-control-file" id="inRoom" name="inRoom" accept=".xml">
+                                        <small id="rcSmall" class="form-text text-muted">XML File to import single panel.</small>
+                                    </div>
+                                </div>
+                                <div class="form-check">
+                                    <label for="panelName" class="col-auto col-form-label">Panel ID</label>
+                                    <div class="col-sm-10" >
+                                        <input type="text" class="form-control" id="panelName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Panel ID">
+                                        <small id="panelSmall" class="form-text text-muted">If panel ID already exists it will be overwritten.</small>
+                                    </div>
+                                </div>
                             </div>
+
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="form-check">
+                                    <div>
+                                        <p>Touch Panel configuration.</p>
+                                        <input type="file" class="form-control-file" id="inRoomConfig" name="inRoomConfig" accept=".xml">
+                                        <small id="rccSmall" class="form-text text-muted">XML File to import configuration.</small>
+                                    </div>
+                                </div>
+                                <div class="form-check">
+                                    <label for="configName" class="col-auto col-form-label">Config ID</label>
+                                    <div class="col-sm-10" >
+                                        <input type="text" class="form-control" id="configName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Config ID">
+                                        <small id="configSmall" class="form-text text-muted">Existing configuration will be overwritten.</small>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                     <div class="form-check">
@@ -112,15 +146,15 @@
                     </div>
                     <div class="form-check" id="brandingFileDiv" style="display:none">
                         <div class="form-check">
-                            <input type="file" class="form-control-file" id="brandingBackground" name="brandingBackground" accept="image/jpeg">
+                            <input type="file" class="form-control-file" id="brandingBackground" name="brandingBackground" accept="image/jpeg, image/png">
                             <small id="brandBackSmall" class="form-text text-muted">Background file.</small>
                         </div>
                         <div class="form-check">
-                            <input type="file" class="form-control-file" id="brandingLogo" name="brandingLogo" accept="image/jpeg">
+                            <input type="file" class="form-control-file" id="brandingLogo" name="brandingLogo" accept="image/jpeg, image/png">
                             <small id="brandLogoSmall" class="form-text text-muted">Logo during awake state.</small>
                         </div>
                         <div class="form-check">
-                            <input type="file" class="form-control-file" id="brandingHalfAwake" name="brandingHalfAwake" accept="image/jpeg">
+                            <input type="file" class="form-control-file" id="brandingHalfAwake" name="brandingHalfAwake" accept="image/jpeg, image/png">
                             <small id="brandHalfAwakeSmall" class="form-text text-muted">Logo during halfwake state(leave blank if same as awake).</small>
                         </div>
                     </div>
