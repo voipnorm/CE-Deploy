@@ -3,3 +3,8 @@
 * live error counter
 * ******* poll endpoints before deplpyment ***********
 * https support
+
+* improve progress bar
+* Linux improvement for menu
+* user guide
+* User account deployment
