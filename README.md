@@ -1,10 +1,11 @@
-* Test authentication before deployment
-* halt deployment button or some way to stop with multiple errors
-* live error counter
+* Test authentication before deployment - done
+* halt deployment button or some way to stop with multiple errors 
+* live error counter - done
 * ******* poll endpoints before deplpyment ***********
-* https support
+* https support - done
 
-* improve progress bar
+* improve progress bar -done
 * Linux improvement for menu
+* digital signage
 * user guide
 * User account deployment
