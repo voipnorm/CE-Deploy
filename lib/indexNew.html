@@ -14,6 +14,23 @@
 <body>
 <div id="container" class="container-fluid">
     <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="./images/logo.png" width="50" height="30" class="d-inline-block align-top" alt="">
+                CE-Deploy
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Deploy<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="docs.html">Documentation</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div>
         <form id="ipcForm" onSubmit="JavaScript:sendForm(event)">
             <div class="form-group row" id="usernameDiv">
                 <label for="username" class="col-auto col-form-label">Username</label>
@@ -61,7 +78,12 @@
                 <div class="col-3">
                     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active" id="v-pills-signage-tab" data-toggle="pill" href="#v-pills-signage" role="tab" aria-controls="v-pills-signage" aria-selected="true">Signage</a>
-                        <a class="nav-link" id="v-pills-uploads-tab" data-toggle="pill" href="#v-pills-uploads" role="tab" aria-controls="v-pills-uploads" aria-selected="false">Uploads</a>
+                        <a class="nav-link" id="v-pills-uiControls-tab" data-toggle="pill" href="#v-pills-uiControls" role="tab" aria-controls="v-pills-uiControls" aria-selected="false">UI Controls</a>
+                        <a class="nav-link" id="v-pills-macros-tab" data-toggle="pill" href="#v-pills-macros" role="tab" aria-controls="v-pills-macros" aria-selected="false">Macros</a>
+                        <a class="nav-link" id="v-pills-wallpaper-tab" data-toggle="pill" href="#v-pills-wallpaper" role="tab" aria-controls="v-pills-wallpaper" aria-selected="false">Wallpaper</a>
+                        <a class="nav-link" id="v-pills-branding-tab" data-toggle="pill" href="#v-pills-branding" role="tab" aria-controls="v-pills-branding" aria-selected="false">Branding</a>
+                        <a class="nav-link" id="v-pills-logs-tab" data-toggle="pill" href="#v-pills-logs" role="tab" aria-controls="v-pills-logs" aria-selected="false">Logs Download</a>
+
                     </div>
                 </div>
                 <div class="col-9">
@@ -85,15 +107,11 @@
 
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="v-pills-uploads" role="tabpanel" aria-labelledby="v-pills-uploads-tab">
+                        <div class="tab-pane fade" id="v-pills-uiControls" role="tabpanel" aria-labelledby="v-pills-uiControls-tab">
                             <fieldset class="form-group">
 
                                     <div class="col-auto">
-                                        <div class="form-check">
-                                            <input type="checkbox" id="inRoomCheck" onclick="inRoomCheckBox()">
-                                            <label for="inRoomCheck" class="col-auto col-form-label">Room Controls</label>
-                                        </div>
-                                        <div class="form-check" id="inRoomFileDiv" style="display:none">
+                                        <div class="form-check" id="inRoomFileDiv">
                                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                 <li class="nav-item">
                                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Panel</a>
@@ -139,70 +157,70 @@
 
                                             </div>
                                         </div>
-                                        <div class="form-check">
-                                            <input type="checkbox" id="macroCheck" onclick="macroCheckBox()">
-                                            <label for="macroCheck" class="col-auto col-form-label">Macros</label>
-                                        </div>
-                                        <div class="form-check" id="macroDiv">
-                                            <div class="form-group row" id="macroNameDiv" style="display:none">
-                                                <div class="form-check">
-                                                    <label for="macroName" class="col-auto col-form-label">Macro Name</label>
-                                                    <div class="col-sm-10" >
-                                                        <input type="text" class="form-control" id="macroName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Macro name">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-check" id="macroFileDiv" style="display:none">
-                                                <input type="file" class="form-control-file" id="macro" name="macro" accept=".js">
-                                                <small id="macroSmall" class="form-text text-muted">Javascript Macro file.</small>
-                                            </div>
-                                            <div class="form-check" id="macroActivateDiv" style="display:none">
-                                                <input type="checkbox" id="macroActivateCheck">
-                                                <label for="macroActivateCheck" class="col-auto col-form-label">Activate on deployment</label>
-                                            </div>
-                                        </div>
-                                        <div class="form-check">
-                                            <input type="checkbox" id="wallpaperCheck" onclick="wallpaperCheckBox()">
-                                            <label for="wallpaperCheck" class="col-auto col-form-label">Wallpaper</label>
-                                        </div>
-                                        <div class="form-check" id="wallpaperFileDiv" style="display:none">
-                                            <div class="form-check">
-                                                <input type="file" class="form-control-file" id="wallpaper" name="wallpaper" accept="image/jpeg">
-                                                <small id="wallSmall" class="form-text text-muted">Wallpaper file to be displayed on your endpoint.</small>
-                                            </div>
-                                        </div>
-                                        <div class="form-check">
-                                            <input type="checkbox" id="brandingCheck" onclick="brandingCheckBox()">
-                                            <label for="wallpaperCheck" class="col-auto col-form-label">Branding</label>
-                                        </div>
-                                        <div class="form-check" id="brandingFileDiv" style="display:none">
-                                            <div class="form-check">
-                                                <input type="file" class="form-control-file" id="brandingBackground" name="brandingBackground" accept="image/jpeg, image/png">
-                                                <small id="brandBackSmall" class="form-text text-muted">Background file.</small>
-                                            </div>
-                                            <div class="form-check">
-                                                <input type="file" class="form-control-file" id="brandingLogo" name="brandingLogo" accept="image/jpeg, image/png">
-                                                <small id="brandLogoSmall" class="form-text text-muted">Logo during awake state.</small>
-                                            </div>
-                                            <div class="form-check">
-                                                <input type="file" class="form-control-file" id="brandingHalfAwake" name="brandingHalfAwake" accept="image/jpeg, image/png">
-                                                <small id="brandHalfAwakeSmall" class="form-text text-muted">Logo during halfwake state(leave blank if same as awake).</small>
-                                            </div>
-                                        </div>
+
+
                                     </div>
                             </fieldset>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-macros" role="tabpanel" aria-labelledby="v-pills-macros-tab">
+                            <div class="form-check" id="macroDiv">
+                                <div class="form-group row" id="macroNameDiv">
+                                    <div class="form-check">
+                                        <label for="macroName" class="col-auto col-form-label">Macro Name</label>
+                                        <div class="col-sm-10" >
+                                            <input type="text" class="form-control" id="macroName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Macro name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-check" id="macroFileDiv">
+                                    <input type="file" class="form-control-file" id="macro" name="macro" accept=".js">
+                                    <small id="macroSmall" class="form-text text-muted">Javascript Macro file.</small>
+                                </div>
+                                <div class="form-check" id="macroActivateDiv">
+                                    <input type="checkbox" id="macroActivateCheck">
+                                    <label for="macroActivateCheck" class="col-auto col-form-label">Activate on deployment</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-wallpaper" role="tabpanel" aria-labelledby="v-pills-wallpaper-tab">
+                            <div class="form-check" id="wallpaperFileDiv">
+                                <div class="form-check">
+                                    <input type="file" class="form-control-file" id="wallpaper" name="wallpaper" accept="image/jpeg">
+                                    <small id="wallSmall" class="form-text text-muted">Wallpaper file to be displayed on your endpoint.</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-branding" role="tabpanel" aria-labelledby="v-pills-branding-tab">
+                            <div class="form-check" id="brandingFileDiv">
+                                <div class="form-check">
+                                    <input type="file" class="form-control-file" id="brandingBackground" name="brandingBackground" accept="image/jpeg, image/png">
+                                    <small id="brandBackSmall" class="form-text text-muted">Background file.</small>
+                                </div>
+                                <div class="form-check">
+                                    <input type="file" class="form-control-file" id="brandingLogo" name="brandingLogo" accept="image/jpeg, image/png">
+                                    <small id="brandLogoSmall" class="form-text text-muted">Logo during awake state.</small>
+                                </div>
+                                <div class="form-check">
+                                    <input type="file" class="form-control-file" id="brandingHalfAwake" name="brandingHalfAwake" accept="image/jpeg, image/png">
+                                    <small id="brandHalfAwakeSmall" class="form-text text-muted">Logo during halfwake state(leave blank if same as awake).</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-logs" role="tabpanel" aria-labelledby="v-pills-logs-tab">
+                            <p>Work in progress for downloading logs from endpoints</p>
+                            <div class="form-check">
+                                <input type="checkbox" id="downloadLogs">
+                                <label for="downloadLogs" class="col-auto col-form-label">Download logs from endpoints</label>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-
-
-
-            <div style="position:relative;bottom:5px;left:5px;margin:0;padding:5px 3px;">
+            <div style="position:relative;bottom:5px;left:5px;margin:10px;padding:5px 3px;">
                 <div class="form-group row">
                     <div class="col-sm-10">
-                        <button type="submit" id='submit' class="btn btn-primary">Deploy</button>
+                        <button type="submit" id='submit' class="btn btn-success btn-lg">Deploy</button>
                     </div>
                 </div>
                 <div class="progress">
