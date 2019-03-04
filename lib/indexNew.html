@@ -32,30 +32,36 @@
     </div>
     <div>
         <form id="ipcForm" onSubmit="JavaScript:sendForm(event)">
-            <div class="form-group row" id="usernameDiv">
-                <label for="username" class="col-auto col-form-label">Username</label>
-                <div class="col-sm-10">
-                    <input type="text" class="form-control" id="username" placeholder="Username" required="true">
-                    <small id="adminUser" class="form-text text-muted">Local admin or integrator username.</small>
-                </div>
-            </div>
-            <div class="form-group row" id="passwordDiv">
-                <label for="show_hide_password" class="col-auto col-form-label">Password</label>
-                <div class="col-sm-10">
-                    <div class="input-group" id="show_hide_password">
-                        <input class="form-control" id="password" type="password" required="true" placeholder="Password">
-                        <div class="input-group-append">
-                            <span class="input-group-text" id="basic-addon2"><a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a></span>
-                        </div>
+            <div style="position:relative;bottom:5px;left:5px;margin:10px;padding:5px 3px;">
+                <div class="form-group row" id="usernameDiv">
+                    <label for="username" class="col-auto col-form-label">Username</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="username" placeholder="Username" required="true">
+                        <small id="adminUser" class="form-text text-muted">Local admin or integrator username.</small>
                     </div>
-                    <small id="passwordSM" class="form-text text-muted">Local admin or integrator password.</small>
+                </div>
+                <div class="form-group row" id="passwordDiv">
+                    <label for="show_hide_password" class="col-auto col-form-label">Password</label>
+                    <div class="col-sm-10">
+                        <div class="input-group" id="show_hide_password">
+                            <input class="form-control" id="password" type="password" required="true" placeholder="Password">
+                            <div class="input-group-append">
+                                <span class="input-group-text" id="basic-addon2"><a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a></span>
+                            </div>
+                        </div>
+                        <small id="passwordSM" class="form-text text-muted">Local admin or integrator password.</small>
+                    </div>
                 </div>
             </div>
+
             <div class="form-group row" id="endpointCsvDiv">
                 <label class="col-auto col-form-label">Endpoint File:</label>
                 <div class="col-auto">
-                    <input type="file" class="form-control-file" id="endpointCSV" name="endpoint" accept=".csv" required="true">
-                    <small id="epSmall" class="form-text text-muted">CSV containing video endpoint IP addresses or FQDN.</small>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="endpointCSV" accept=".csv" required="true">
+                        <label class="custom-file-label" for="endpointCSV">Choose file</label>
+                        <small id="epSmall" class="form-text text-muted">CSV containing video endpoint IP addresses or FQDN.</small>
+                    </div>
                 </div>
             </div>
             <div class="form-check">
@@ -89,29 +95,27 @@
                 <div class="col-9">
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-signage" role="tabpanel" aria-labelledby="v-pills-signage-tab">
-                            <div>
+                            <div class="form-check">
                                 <p>
                                     Digital signage work in progress
                                 </p>
-                                <div class="form-check">
+                                <div >
                                     <input type="checkbox" id="enableSignageCheck">
                                     <label for="enableSignageCheck" class="col-auto col-form-label">Enable Web Signage</label>
                                 </div>
-                                <div class="form-check">
-                                    <label for="configName" class="col-auto col-form-label">Web Signage URL</label>
-                                    <div class="col-sm-10" >
+                                <div>
+                                    <label for="configName">Web Signage URL:</label>
+                                    <div>
                                         <input type="text" class="form-control" id="signageUrl" placeholder="Signage URL">
-                                        <small id="signageUrlSmall" class="form-text text-muted">Digital Signage URL</small>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-uiControls" role="tabpanel" aria-labelledby="v-pills-uiControls-tab">
                             <fieldset class="form-group">
 
                                     <div class="col-auto">
-                                        <div class="form-check" id="inRoomFileDiv">
+                                        <div id="inRoomFileDiv">
                                             <ul class="nav nav-tabs" id="myTab" role="tablist">
                                                 <li class="nav-item">
                                                     <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Panel</a>
@@ -122,37 +126,39 @@
                                             </ul>
                                             <div class="tab-content" id="myTabContent">
                                                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                                    <div class="form-check">
+                                                    <div>
                                                         <div>
-                                                            <p>Single panel configuration.</p>
-                                                            <input type="file" class="form-control-file" id="inRoom" name="inRoom" accept=".xml">
-                                                            <small id="rcSmall" class="form-text text-muted">XML File to import single panel.</small>
+                                                            <label for="panelName" >Panel ID</label>
+                                                            <input type="text" class="form-control" id="panelName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Required">
+                                                            <small id="panelSmall" class="form-text text-muted">Identical IDs will be overwritten.</small>
                                                         </div>
                                                     </div>
-                                                    <div class="form-check">
-                                                        <label for="panelName" class="col-auto col-form-label">Panel ID</label>
-                                                        <div class="col-sm-10" >
-                                                            <input type="text" class="form-control" id="panelName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Panel ID">
-                                                            <small id="panelSmall" class="form-text text-muted">If panel ID already exists it will be overwritten.</small>
+                                                    <div>
+                                                        <label for="inRoom">Panel XML File:</label>
+                                                        <div class="custom-file">
+                                                            <input type="file" class="custom-file-input" id="inRoom" accept=".xml">
+                                                            <label class="custom-file-label" for="inRoom">Choose XML file</label>
                                                         </div>
                                                     </div>
+
                                                 </div>
 
                                                 <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                                    <div class="form-check">
+                                                    <div>
                                                         <div>
-                                                            <p>Touch Panel configuration.</p>
-                                                            <input type="file" class="form-control-file" id="inRoomConfig" name="inRoomConfig" accept=".xml">
-                                                            <small id="rccSmall" class="form-text text-muted">XML File to import configuration.</small>
+                                                            <label for="configName" >Config ID</label>
+                                                            <input type="text" class="form-control" id="configName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Required">
+                                                            <small id="configSmall" class="form-text text-muted">Touch Panel will be overwritten.</small>
                                                         </div>
                                                     </div>
-                                                    <div class="form-check">
-                                                        <label for="configName" class="col-auto col-form-label">Config ID</label>
-                                                        <div class="col-sm-10" >
-                                                            <input type="text" class="form-control" id="configName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Config ID">
-                                                            <small id="configSmall" class="form-text text-muted">Existing configuration will be overwritten.</small>
+                                                    <div>
+                                                        <label for="inRoomConfig">Config XML File:</label>
+                                                        <div class="custom-file">
+                                                            <input type="file" class="custom-file-input" id="inRoomConfig" accept=".xml">
+                                                            <label class="custom-file-label" for="inRoomConfig">Choose XML file</label>
                                                         </div>
                                                     </div>
+
                                                 </div>
 
                                             </div>
@@ -163,46 +169,56 @@
                             </fieldset>
                         </div>
                         <div class="tab-pane fade" id="v-pills-macros" role="tabpanel" aria-labelledby="v-pills-macros-tab">
-                            <div class="form-check" id="macroDiv">
-                                <div class="form-group row" id="macroNameDiv">
-                                    <div class="form-check">
-                                        <label for="macroName" class="col-auto col-form-label">Macro Name</label>
-                                        <div class="col-sm-10" >
-                                            <input type="text" class="form-control" id="macroName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Required">
-                                        </div>
+                            <div id="macroDiv">
+                                <div>
+                                    <label for="macroName">Macro Name</label>
+                                    <div>
+                                        <input type="text" class="form-control" id="macroName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Required">
                                     </div>
                                 </div>
-                                <div class="form-check" id="macroFileDiv">
-                                    <input type="file" class="form-control-file" id="macro" name="macro" accept=".js">
-                                    <small id="macroSmall" class="form-text text-muted">Javascript Macro file.</small>
+                                <div>
+                                    <label for="macro">Macro Javascript File:</label>
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="macro" accept=".js">
+                                        <label class="custom-file-label" for="macro">Choose JS file</label>
+                                    </div>
                                 </div>
-                                <div class="form-check" id="macroActivateDiv">
+                                <div>
                                     <input type="checkbox" id="macroActivateCheck">
                                     <label for="macroActivateCheck" class="col-auto col-form-label">Activate on deployment</label>
                                 </div>
+
                             </div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-wallpaper" role="tabpanel" aria-labelledby="v-pills-wallpaper-tab">
-                            <div class="form-check" id="wallpaperFileDiv">
-                                <div class="form-check">
-                                    <input type="file" class="form-control-file" id="wallpaper" name="wallpaper" accept="image/jpeg">
-                                    <small id="wallSmall" class="form-text text-muted">Wallpaper file to be displayed on your endpoint.</small>
+                            <div>
+                                <label for="wallpaper">Wallpaper File:</label>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="wallpaper" accept="image/jpeg, image/png">
+                                    <label class="custom-file-label" for="wallpaper">Choose jpeg or png file</label>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-branding" role="tabpanel" aria-labelledby="v-pills-branding-tab">
-                            <div class="form-check" id="brandingFileDiv">
-                                <div class="form-check">
-                                    <input type="file" class="form-control-file" id="brandingBackground" name="brandingBackground" accept="image/jpeg, image/png">
-                                    <small id="brandBackSmall" class="form-text text-muted">Background file.</small>
+                            <div>
+                                <label for="brandingBackground">Background File:</label>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="brandingBackground" accept="image/jpeg, image/png">
+                                    <label class="custom-file-label" for="brandingBackground">Choose jpeg or png file</label>
                                 </div>
-                                <div class="form-check">
-                                    <input type="file" class="form-control-file" id="brandingLogo" name="brandingLogo" accept="image/jpeg, image/png">
-                                    <small id="brandLogoSmall" class="form-text text-muted">Logo during awake state.</small>
+                            </div>
+                            <div>
+                                <label for="brandingLogo">Logo Awake State File:</label>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="brandingLogo" accept="image/jpeg, image/png">
+                                    <label class="custom-file-label" for="brandingLogo">Choose jpeg or png file</label>
                                 </div>
-                                <div class="form-check">
-                                    <input type="file" class="form-control-file" id="brandingHalfAwake" name="brandingHalfAwake" accept="image/jpeg, image/png">
-                                    <small id="brandHalfAwakeSmall" class="form-text text-muted">Logo during halfwake state(leave blank if same as awake).</small>
+                            </div>
+                            <div>
+                                <label for="brandingHalfAwake">Logo Halfwake State</label>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="brandingHalfAwake" accept="image/jpeg, image/png">
+                                    <label class="custom-file-label" for="brandingHalfAwake">Choose jpeg or png file</label>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +231,7 @@
                                     Downloaded logs can be viewed through Tools>Downloaded Logs.
                                 </p>
                             </div>
-                            <div class="form-check">
+                            <div>
                                 <input type="checkbox" id="downloadLogs">
                                 <label for="downloadLogs" class="col-auto col-form-label">Download endpoint logs</label>
                             </div>
