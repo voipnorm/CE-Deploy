@@ -82,7 +82,7 @@
                         <a class="nav-link" id="v-pills-macros-tab" data-toggle="pill" href="#v-pills-macros" role="tab" aria-controls="v-pills-macros" aria-selected="false">Macros</a>
                         <a class="nav-link" id="v-pills-wallpaper-tab" data-toggle="pill" href="#v-pills-wallpaper" role="tab" aria-controls="v-pills-wallpaper" aria-selected="false">Wallpaper</a>
                         <a class="nav-link" id="v-pills-branding-tab" data-toggle="pill" href="#v-pills-branding" role="tab" aria-controls="v-pills-branding" aria-selected="false">Branding</a>
-                        <a class="nav-link" id="v-pills-logs-tab" data-toggle="pill" href="#v-pills-logs" role="tab" aria-controls="v-pills-logs" aria-selected="false">Logs Download</a>
+                        <a class="nav-link" id="v-pills-logs-tab" data-toggle="pill" href="#v-pills-logs" role="tab" aria-controls="v-pills-logs" aria-selected="false">Logs</a>
 
                     </div>
                 </div>
@@ -168,7 +168,7 @@
                                     <div class="form-check">
                                         <label for="macroName" class="col-auto col-form-label">Macro Name</label>
                                         <div class="col-sm-10" >
-                                            <input type="text" class="form-control" id="macroName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Macro name">
+                                            <input type="text" class="form-control" id="macroName" pattern="^[a-zA-Z0-9 ]+$" title="Alphanumeric characters only." placeholder="Required">
                                         </div>
                                     </div>
                                 </div>
@@ -207,10 +207,17 @@
                             </div>
                         </div>
                         <div class="tab-pane fade" id="v-pills-logs" role="tabpanel" aria-labelledby="v-pills-logs-tab">
-                            <p>Work in progress for downloading logs from endpoints</p>
+                            <div>
+                                <p>
+                                    All endpoint logs are downloaded in a gzip file.
+                                </p>
+                                <p>
+                                    Downloaded logs can be viewed through Tools>Downloaded Logs.
+                                </p>
+                            </div>
                             <div class="form-check">
                                 <input type="checkbox" id="downloadLogs">
-                                <label for="downloadLogs" class="col-auto col-form-label">Download logs from endpoints</label>
+                                <label for="downloadLogs" class="col-auto col-form-label">Download endpoint logs</label>
                             </div>
                         </div>
                     </div>
