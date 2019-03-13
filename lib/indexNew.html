@@ -97,18 +97,30 @@
                     <div class="tab-content" id="v-pills-tabContent">
                         <div class="tab-pane fade show active" id="v-pills-signage" role="tabpanel" aria-labelledby="v-pills-signage-tab">
                             <div class="form-check">
-                                <p>
-                                    Digital signage work in progress
-                                </p>
-                                <img src="./images/under-construction.jpg" alt="csvExample" height="60" width="60">
                                 <div >
                                     <input type="checkbox" id="enableSignageCheck">
-                                    <label for="enableSignageCheck" class="col-auto col-form-label">Enable Web Signage</label>
+                                    <label for="enableSignageCheck" class="col-auto col-form-label">Enable Digital Signage</label>
+                                </div>
+                                <div >
+                                    <input type="checkbox" id="enableInteractiveCheck">
+                                    <label for="enableInteractiveCheck" class="col-auto col-form-label">Enable Interactive (Webex Board Only)</label>
                                 </div>
                                 <div>
-                                    <label for="configName">Web Signage URL:</label>
+                                    <label for="configName">Digital Signage URL:</label>
                                     <div>
                                         <input type="text" class="form-control" id="signageUrl" placeholder="Signage URL">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="configName">Standby Delay:</label>
+                                    <div>
+                                        <input type="text" class="form-control" id="standbyDelay" placeholder="In minutes (default = 4) ">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="configName">Refresh Interval:</label>
+                                    <div>
+                                        <input type="text" class="form-control" id="refreshInterval" placeholder="In minutes (default = 0)">
                                     </div>
                                 </div>
                             </div>
