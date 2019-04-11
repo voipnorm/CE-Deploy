@@ -34,6 +34,20 @@ Our solution will levegerage the following Cisco technologies
 
 Provide a brief overview of the components involved with this project. e.g Python /  -->
 
+This solution is based on Electron which is built on JavaScript, HTML, and CSS. The desktop application
+CE-Deploy is compatible with Cisco video devices running CE firmware 9.x and greater. While some
+features may support earlier versions of firmware including TC formware trains.
+
+For documentation of tool usage clone the repo, perform a npm install to install all dependencies. and build the solution using
+    
+    git clone https://github.com/voipnorm/InRoom-Macro-Deployer.git
+    npm install
+    npm run dist
+  
+To run the project before performing a build:
+
+    npm start
+
 
 ## Usage
 
@@ -41,16 +55,47 @@ Provide a brief overview of the components involved with this project. e.g Pytho
 
 Provide a brief overview of how to use the solution  -->
 
+CE-Deploy provides a desktop application for deploying the following features to CE 
+firmware based Cisco video endpoints in mass:
+
+* Wallpapers
+* Macro Files
+* Touch 10 UI controls
+* Download logs for toubleshooting
+* Digital Signage
+* Branding
+
+Many of these components can be deployed from CUCM or TMC but typically it is not an easy
+Task to perform or take multiple configuratio steps to complete. CE-Deploy makes it simple to 
+deploy to multiple endpoints.
+
+Components required to depoly various features:
+
+* CSV file formated with endpoints to be deployed
+* Local user name and password for admin enabled account.
+
+
+
+
 
 
 ## Installation
 
-How to install or setup the project for use.
+To download and install this project:
+
+    git clone https://github.com/voipnorm/InRoom-Macro-Deployer.git
+    npm install
+    npm run dist
+  
+To run the project before performing a build:
+
+    npm start
+
 
 
 ## Documentation
 
-Pointer to reference documentation for this project.
+Documention on tool usage are part of the actual build. 
 
 
 ## License
