@@ -50,7 +50,7 @@
                                 <span class="input-group-text" id="basic-addon2"><a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a></span>
                             </div>
                         </div>
-                        <small id="passwordSM" class="form-text text-muted">Local admin or integrator password</small>
+                        <small id="passwordSM" class="form-text text-muted">Local admin or integrator password. Use _ for a blank password.</small>
                     </div>
                 </div>
             </div>
@@ -269,7 +269,9 @@
                                     <p>This updates the user account passphrase used to authenticate. As an example if you have
                                         used "admin" in the username field in CE-Deploy that is the account that will have
                                         its passphrase updated. Your current password is required in the password field.
+                                        For default blank passwords use a underscore in the password field.
                                         The new passphrase for the account is entered below in the provided field named "New Passphrase".
+
                                     </p>
                                     <div>
                                         <input type="text" class="form-control" id="adminPPhrase" placeholder="New Passphrase">

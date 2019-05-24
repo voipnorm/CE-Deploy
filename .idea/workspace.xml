@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="52eb32b4-deb4-4140-bbfc-f8b7dc07109b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/indexNew.html" afterPath="$PROJECT_DIR$/lib/indexNew.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,20 +31,20 @@
       <file leaf-file-name="deployment.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/deployment.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1094">
-              <caret line="142" column="72" lean-forward="true" selection-start-line="142" selection-start-column="72" selection-end-line="142" selection-end-column="72" />
+            <state relative-caret-position="2115">
+              <caret line="141" column="53" lean-forward="false" selection-start-line="141" selection-start-column="53" selection-end-line="141" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding>
-                <marker date="1558722453387" expanded="true" signature="435:732" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
+                <marker date="1558724724050" expanded="true" signature="435:732" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -63,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexNew.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="indexNew.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/indexNew.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="271" column="136" lean-forward="false" selection-start-line="271" selection-start-column="136" selection-end-line="271" selection-end-column="136" />
+            <state relative-caret-position="192">
+              <caret line="271" column="107" lean-forward="false" selection-start-line="271" selection-start-column="107" selection-end-line="271" selection-end-column="107" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#4;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -95,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/lib/buildXml.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="246">
-              <caret line="229" column="28" lean-forward="true" selection-start-line="229" selection-start-column="28" selection-end-line="229" selection-end-column="28" />
+              <caret line="229" column="28" lean-forward="false" selection-start-line="229" selection-start-column="28" selection-end-line="229" selection-end-column="28" />
               <folding>
                 <marker date="1558720781822" expanded="true" signature="395:847" ph="..." />
                 <marker date="1558720781822" expanded="true" signature="416:832" ph="..." />
@@ -155,8 +155,8 @@
       <file leaf-file-name="renderer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/renderer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="83" column="62" lean-forward="false" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
+            <state relative-caret-position="335">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -256,8 +256,8 @@
         <option value="$PROJECT_DIR$/lib/buildXml.js" />
         <option value="$PROJECT_DIR$/lib/deployment.js" />
         <option value="$PROJECT_DIR$/lib/renderer.js" />
-        <option value="$PROJECT_DIR$/lib/indexNew.html" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/lib/indexNew.html" />
       </list>
     </option>
   </component>
@@ -303,20 +303,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="electronFirstApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="electronFirstApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="electronFirstApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,7 +443,7 @@
       <workItem from="1553695272179" duration="1002000" />
       <workItem from="1554821314126" duration="10796000" />
       <workItem from="1557858107026" duration="7520000" />
-      <workItem from="1558719162777" duration="2757000" />
+      <workItem from="1558719162777" duration="4693000" />
     </task>
     <task id="LOCAL-00001" summary="update readme">
       <created>1548952513354</created>
@@ -781,11 +767,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558721960519</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="updated version number">
+      <created>1558722469657</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1558722469657</updated>
+    </task>
+    <task id="LOCAL-00048" summary="revised blank password">
+      <created>1558724854969</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1558724854969</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276590000" />
+    <option name="totallyTimeSpent" value="278526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="199" y="67" width="1339" height="709" extended-state="0" />
@@ -818,8 +818,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/electron-quick-start" />
     </ignored-roots>
-    <MESSAGE value="Beta build changes" />
-    <MESSAGE value="updates" />
     <MESSAGE value="macro Activate" />
     <MESSAGE value="build updates" />
     <MESSAGE value="menu updates" />
@@ -843,7 +841,9 @@
     <MESSAGE value="Readme updates" />
     <MESSAGE value="update webex board touch 10" />
     <MESSAGE value="account password changes feature added." />
-    <option name="LAST_COMMIT_MESSAGE" value="account password changes feature added." />
+    <MESSAGE value="updated version number" />
+    <MESSAGE value="revised blank password" />
+    <option name="LAST_COMMIT_MESSAGE" value="revised blank password" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1014,7 +1014,7 @@
     <entry file="file://$PROJECT_DIR$/lib/buildXml.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
-          <caret line="229" column="28" lean-forward="true" selection-start-line="229" selection-start-column="28" selection-end-line="229" selection-end-column="28" />
+          <caret line="229" column="28" lean-forward="false" selection-start-line="229" selection-start-column="28" selection-end-line="229" selection-end-column="28" />
           <folding>
             <marker date="1558720781822" expanded="true" signature="395:847" ph="..." />
             <marker date="1558720781822" expanded="true" signature="416:832" ph="..." />
@@ -1072,30 +1072,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/deployment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1094">
-          <caret line="142" column="72" lean-forward="true" selection-start-line="142" selection-start-column="72" selection-end-line="142" selection-end-column="72" />
+        <state relative-caret-position="2115">
+          <caret line="141" column="53" lean-forward="false" selection-start-line="141" selection-start-column="53" selection-end-line="141" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/renderer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="83" column="62" lean-forward="false" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
+        <state relative-caret-position="335">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/indexNew.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="271" column="136" lean-forward="false" selection-start-line="271" selection-start-column="136" selection-end-line="271" selection-end-column="136" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#0;n#div#4;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#5;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#6;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1104,7 +1091,20 @@
         <state relative-caret-position="30">
           <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding>
-            <marker date="1558722453387" expanded="true" signature="435:732" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
+            <marker date="1558724724050" expanded="true" signature="435:732" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/indexNew.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="271" column="107" lean-forward="false" selection-start-line="271" selection-start-column="107" selection-end-line="271" selection-end-column="107" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#0;n#div#4;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#5;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#6;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
