@@ -1,4 +1,5 @@
-# ASIC_Macro_RoomControl_Tool
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/voipnorm/InRoom-Macro-Deployer)
+# CE Macro RoomControl Deployment Tool (CEDeploy)
 
 Deployment desktop application for deploying Macros and In-Room control to Webex Room Kit devices.
 
