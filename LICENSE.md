@@ -1,39 +1,82 @@
-CC0 1.0 Universal
-==================
 
-Statement of Purpose
----------------------
+                           CISCO SAMPLE CODE LICENSE
+                                  Version 1.1
+                Copyright (c) 2018 Cisco and/or its affiliates
 
-The laws of most jurisdictions throughout the world automatically confer exclusive Copyright and Related Rights (defined below) upon the creator and subsequent owner(s) (each and all, an "owner") of an original work of authorship and/or a database (each, a "Work").
+   These terms govern this Cisco Systems, Inc. ("Cisco"), example or demo
+   source code and its associated documentation (together, the "Sample
+   Code"). By downloading, copying, modifying, compiling, or redistributing
+   the Sample Code, you accept and agree to be bound by the following terms
+   and conditions (the "License"). If you are accepting the License on
+   behalf of an entity, you represent that you have the authority to do so
+   (either you or the entity, "you"). Sample Code is not supported by Cisco
+   TAC and is not tested for quality or performance. This is your only
+   license to the Sample Code and all rights not expressly granted are
+   reserved.
 
-Certain owners wish to permanently relinquish those rights to a Work for the purpose of contributing to a commons of creative, cultural and scientific works ("Commons") that the public can reliably and without fear of later claims of infringement build upon, modify, incorporate in other works, reuse and redistribute as freely as possible in any form whatsoever and for any purposes, including without limitation commercial purposes. These owners may contribute to the Commons to promote the ideal of a free culture and the further production of creative, cultural and scientific works, or to gain reputation or greater distribution for their Work in part through the use and efforts of others.
+   1. LICENSE GRANT: Subject to the terms and conditions of this License,
+      Cisco hereby grants to you a perpetual, worldwide, non-exclusive, non-
+      transferable, non-sublicensable, royalty-free license to copy and
+      modify the Sample Code in source code form, and compile and
+      redistribute the Sample Code in binary/object code or other executable
+      forms, in whole or in part, solely for use with Cisco products and
+      services. For interpreted languages like Java and Python, the
+      executable form of the software may include source code and
+      compilation is not required.
 
-For these and/or other purposes and motivations, and without any expectation of additional consideration or compensation, the person associating CC0 with a Work (the "Affirmer"), to the extent that he or she is an owner of Copyright and Related Rights in the Work, voluntarily elects to apply CC0 to the Work and publicly distribute the Work under its terms, with knowledge of his or her Copyright and Related Rights in the Work and the meaning and intended legal effect of CC0 on those rights.
+   2. CONDITIONS: You shall not use the Sample Code independent of, or to
+      replicate or compete with, a Cisco product or service. Cisco products
+      and services are licensed under their own separate terms and you shall
+      not use the Sample Code in any way that violates or is inconsistent
+      with those terms (for more information, please visit:
+      www.cisco.com/go/terms).
 
-1. Copyright and Related Rights.
---------------------------------
-A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following:
+   3. OWNERSHIP: Cisco retains sole and exclusive ownership of the Sample
+      Code, including all intellectual property rights therein, except with
+      respect to any third-party material that may be used in or by the
+      Sample Code. Any such third-party material is licensed under its own
+      separate terms (such as an open source license) and all use must be in
+      full accordance with the applicable license. This License does not
+      grant you permission to use any trade names, trademarks, service
+      marks, or product names of Cisco. If you provide any feedback to Cisco
+      regarding the Sample Code, you agree that Cisco, its partners, and its
+      customers shall be free to use and incorporate such feedback into the
+      Sample Code, and Cisco products and services, for any purpose, and
+      without restriction, payment, or additional consideration of any kind.
+      If you initiate or participate in any litigation against Cisco, its
+      partners, or its customers (including cross-claims and counter-claims)
+      alleging that the Sample Code and/or its use infringe any patent,
+      copyright, or other intellectual property right, then all rights
+      granted to you under this License shall terminate immediately without
+      notice.
 
-i. the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
-ii. moral rights retained by the original author(s) and/or performer(s);
-iii. publicity and privacy rights pertaining to a person's image or likeness depicted in a Work;
-iv. rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below;
-v. rights protecting the extraction, dissemination, use and reuse of data in a Work;
-vi. database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and
-vii. other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof.
+   4. LIMITATION OF LIABILITY: CISCO SHALL HAVE NO LIABILITY IN CONNECTION
+      WITH OR RELATING TO THIS LICENSE OR USE OF THE SAMPLE CODE, FOR
+      DAMAGES OF ANY KIND, INCLUDING BUT NOT LIMITED TO DIRECT, INCIDENTAL,
+      AND CONSEQUENTIAL DAMAGES, OR FOR ANY LOSS OF USE, DATA, INFORMATION,
+      PROFITS, BUSINESS, OR GOODWILL, HOWEVER CAUSED, EVEN IF ADVISED OF THE
+      POSSIBILITY OF SUCH DAMAGES.
 
-2. Waiver.
------------
-To the greatest extent permitted by, but not in contravention of, applicable law, Affirmer hereby overtly, fully, permanently, irrevocably and unconditionally waives, abandons, and surrenders all of Affirmer's Copyright and Related Rights and associated claims and causes of action, whether now known or unknown (including existing as well as future claims and causes of action), in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each member of the public at large and to the detriment of Affirmer's heirs and successors, fully intending that such Waiver shall not be subject to revocation, rescission, cancellation, termination, or any other legal or equitable action to disrupt the quiet enjoyment of the Work by the public as contemplated by Affirmer's express Statement of Purpose.
+   5. DISCLAIMER OF WARRANTY: SAMPLE CODE IS INTENDED FOR EXAMPLE PURPOSES
+      ONLY AND IS PROVIDED BY CISCO "AS IS" WITH ALL FAULTS AND WITHOUT
+      WARRANTY OR SUPPORT OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY
+      LAW, ALL EXPRESS AND IMPLIED CONDITIONS, REPRESENTATIONS, AND
+      WARRANTIES INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTY OR
+      CONDITION OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-
+      INFRINGEMENT, SATISFACTORY QUALITY, NON-INTERFERENCE, AND ACCURACY,
+      ARE HEREBY EXCLUDED AND EXPRESSLY DISCLAIMED BY CISCO. CISCO DOES NOT
+      WARRANT THAT THE SAMPLE CODE IS SUITABLE FOR PRODUCTION OR COMMERCIAL
+      USE, WILL OPERATE PROPERLY, IS ACCURATE OR COMPLETE, OR IS WITHOUT
+      ERROR OR DEFECT.
 
-3. Public License Fallback.
-----------------------------
-Should any part of the Waiver for any reason be judged legally invalid or ineffective under applicable law, then the Waiver shall be preserved to the maximum extent permitted taking into account Affirmer's express Statement of Purpose. In addition, to the extent the Waiver is so judged Affirmer hereby grants to each affected person a royalty-free, non transferable, non sublicensable, non exclusive, irrevocable and unconditional license to exercise Affirmer's Copyright and Related Rights in the Work (i) in all territories worldwide, (ii) for the maximum duration provided by applicable law or treaty (including future time extensions), (iii) in any current or future medium and for any number of copies, and (iv) for any purpose whatsoever, including without limitation commercial, advertising or promotional purposes (the "License"). The License shall be deemed effective as of the date CC0 was applied by Affirmer to the Work. Should any part of the License for any reason be judged legally invalid or ineffective under applicable law, such partial invalidity or ineffectiveness shall not invalidate the remainder of the License, and in such case Affirmer hereby affirms that he or she will not (i) exercise any of his or her remaining Copyright and Related Rights in the Work or (ii) assert any associated claims and causes of action with respect to the Work, in either case contrary to Affirmer's express Statement of Purpose.
-
-4. Limitations and Disclaimers.
---------------------------------
-
-a. No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.
-b. Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
-c. Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
-d. Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.
+   6. GENERAL: This License shall be governed by and interpreted in
+      accordance with the laws of the State of California, excluding its
+      conflict of laws provisions. You agree to comply with all applicable
+      United States export laws, rules, and regulations. If any provision of
+      this License is judged illegal, invalid, or otherwise unenforceable,
+      that provision shall be severed and the rest of the License shall
+      remain in full force and effect. No failure by Cisco to enforce any of
+      its rights related to the Sample Code or to a breach of this License
+      in a particular situation will act as a waiver of such rights. In the
+      event of any inconsistencies with any other terms, this License shall
+      take precedence.
