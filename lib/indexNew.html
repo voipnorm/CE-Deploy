@@ -90,6 +90,7 @@
                         <a class="nav-link" id="v-pills-logs-tab" data-toggle="pill" href="#v-pills-logs" role="tab" aria-controls="v-pills-logs" aria-selected="false">Logs</a>
                         <a class="nav-link" id="v-pills-webexTouch-tab" data-toggle="pill" href="#v-pills-webexTouch" role="tab" aria-controls="v-pills-webexTouch" aria-selected="false">Board Touch 10</a>
                         <a class="nav-link" id="v-pills-adminPPhrase-tab" data-toggle="pill" href="#v-pills-adminPPhrase" role="tab" aria-controls="v-pills-adminPPhrase" aria-selected="false">User Passphrase</a>
+                        <a class="nav-link" id="v-pills-disableAssist-tab" data-toggle="pill" href="#v-pills-disableAssist" role="tab" aria-controls="v-pills-disableAssist" aria-selected="false">Webex Assistant</a>
                     </div>
                 </div>
                 <div class="col-9">
@@ -277,6 +278,19 @@
                                         <input type="text" class="form-control" id="adminPPhrase" placeholder="New Passphrase">
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-disableAssist" role="tabpanel" aria-labelledby="v-pills-disableAssist-tab">
+                            <div>
+                                <img src="./images/beta-testing-banner.png" alt="csvExample" height="50" width="75">
+                                <p>
+                                    Disable Webex Assistant on Cisco Room Device. Enabling the Webex Assistant
+                                    option will still be available via the Touch 10 panel.
+                                </p>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="disableAssist">
+                                <label for="disableAssist" class="col-auto col-form-label">Disable Webex Assistant</label>
                             </div>
                         </div>
                     </div>
