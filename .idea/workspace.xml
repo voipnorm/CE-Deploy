@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52eb32b4-deb4-4140-bbfc-f8b7dc07109b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -440,14 +439,7 @@
       <workItem from="1569853356046" duration="7000" />
       <workItem from="1569876265047" duration="598000" />
       <workItem from="1571093800787" duration="7511000" />
-      <workItem from="1572300107679" duration="14684000" />
-    </task>
-    <task id="LOCAL-00005" summary="gitignore update">
-      <created>1549395594563</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1549395594563</updated>
+      <workItem from="1572300107679" duration="14699000" />
     </task>
     <task id="LOCAL-00006" summary="Beta build changes">
       <created>1549475528460</created>
@@ -785,11 +777,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572557732939</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Readme updates">
+      <created>1572559162120</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1572559162120</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305973000" />
+    <option name="totallyTimeSpent" value="305988000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="144" y="153" width="1339" height="709" extended-state="0" />
@@ -840,7 +839,6 @@
     <MESSAGE value="Hyhpen fix" />
     <MESSAGE value="signage updates" />
     <MESSAGE value="Grammer updates" />
-    <MESSAGE value="Readme updates" />
     <MESSAGE value="update webex board touch 10" />
     <MESSAGE value="account password changes feature added." />
     <MESSAGE value="updated version number" />
@@ -848,7 +846,8 @@
     <MESSAGE value="license update" />
     <MESSAGE value="New Disable Webex Assistant" />
     <MESSAGE value="Update for security" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update for security" />
+    <MESSAGE value="Readme updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
