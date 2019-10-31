@@ -14,16 +14,16 @@
   "author": "Chris Norman",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^4.0.2",
-    "electron-builder": "^20.38.5"
+    "electron": "^4.2.12",
+    "electron-builder": "^20.44.4"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.7.1",
-    "bootstrap": "^4.2.1",
-    "electron-log": "^3.0.1",
-    "exceljs": "^1.7.0",
-    "jquery": "^3.3.1",
-    "popper.js": "^1.14.7",
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap": "^4.3.1",
+    "electron-log": "^3.0.8",
+    "exceljs": "^1.15.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
     "request": "^2.88.0"
   },
   "build": {
