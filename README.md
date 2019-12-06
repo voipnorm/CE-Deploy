@@ -24,7 +24,7 @@ CE-Deploy helps to solve some of the most common or hard to deploy features at a
 CE-Deploy leverages the following technologies:
 * [Cisco Webex Room Devices](https://www.cisco.com/c/en/us/products/collaboration-endpoints/webex-room-series/index.html)
 * [Cisco Webex Cloud](https://collaborationhelp.cisco.com/article/en-us/n4lhv2s)
-* [Cisco Webex Room API's](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce96/collaboration-endpoint-software-api-reference-guide-ce96.pdf)
+* [Cisco Webex Room xAPI's](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce96/collaboration-endpoint-software-api-reference-guide-ce96.pdf)
 * [Nodejs](https://nodejs.org/en/)
 * [Electron Framework](https://electronjs.org/)
 
@@ -42,8 +42,9 @@ but this has not been tested or supported.
 
 ##Installation:
 
-    git clone https://github.com/voipnorm/InRoom-Macro-Deployer.git
+    git clone https://github.com/voipnorm/CE-Deploy.git
     npm install
+    cd CE-Deploy
     
 To run the project:
 
