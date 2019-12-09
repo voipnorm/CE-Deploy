@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52eb32b4-deb4-4140-bbfc-f8b7dc07109b" name="Default" comment="">
+    <list default="true" id="52eb32b4-deb4-4140-bbfc-f8b7dc07109b" name="Default" comment="Readme updates">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/renderer.js" afterPath="$PROJECT_DIR$/lib/renderer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/main.js" afterPath="$PROJECT_DIR$/lib/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -58,12 +57,12 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="30">
+              <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding>
-                <marker date="1575664177218" expanded="true" signature="435:457" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
-                <marker date="1575664177218" expanded="true" signature="435:735" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
-                <marker date="1575664177218" expanded="true" signature="704:735" ph="{&quot;@fortawesome/fontawesome-free&quot;: &quot;^5.7.1&quot;...}" />
+                <marker date="1575906695079" expanded="true" signature="435:457" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
+                <marker date="1575906695079" expanded="true" signature="435:735" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
+                <marker date="1575906695079" expanded="true" signature="704:735" ph="{&quot;@fortawesome/fontawesome-free&quot;: &quot;^5.7.1&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -72,8 +71,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="108" column="30" lean-forward="false" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="56" />
+            <state relative-caret-position="116">
+              <caret line="40" column="73" lean-forward="false" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -169,8 +168,8 @@
       <file leaf-file-name="renderer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/renderer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="62" column="72" lean-forward="false" selection-start-line="62" selection-start-column="72" selection-end-line="62" selection-end-column="72" />
+            <state relative-caret-position="381">
+              <caret line="111" column="4" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -267,10 +266,10 @@
         <option value="$PROJECT_DIR$/LICENSE.md" />
         <option value="$PROJECT_DIR$/lib/deployment.js" />
         <option value="$PROJECT_DIR$/lib/buildXml.js" />
-        <option value="$PROJECT_DIR$/lib/main.js" />
         <option value="$PROJECT_DIR$/lib/indexNew.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/renderer.js" />
+        <option value="$PROJECT_DIR$/lib/main.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -316,6 +315,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="electronFirstApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="electronFirstApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="electronFirstApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="electronFirstApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="electronFirstApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -469,14 +496,7 @@
       <workItem from="1569876265047" duration="598000" />
       <workItem from="1571093800787" duration="7511000" />
       <workItem from="1572300107679" duration="27699000" />
-      <workItem from="1574182891619" duration="11587000" />
-    </task>
-    <task id="LOCAL-00007" summary="updates">
-      <created>1549480631617</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1549480631618</updated>
+      <workItem from="1574182891619" duration="12617000" />
     </task>
     <task id="LOCAL-00008" summary="macro Activate">
       <created>1549488716271</created>
@@ -814,11 +834,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572559171533</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Readme updates">
+      <created>1575665524795</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1575665524796</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="330575000" />
+    <option name="totallyTimeSpent" value="331605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1339" height="709" extended-state="0" />
@@ -1046,14 +1073,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="108" column="30" lean-forward="false" selection-start-line="108" selection-start-column="30" selection-end-line="108" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/deployment.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -1144,20 +1163,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/renderer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="62" column="72" lean-forward="false" selection-start-line="62" selection-start-column="72" selection-end-line="62" selection-end-column="72" />
+        <state relative-caret-position="381">
+          <caret line="111" column="4" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="40" column="73" lean-forward="false" selection-start-line="40" selection-start-column="73" selection-end-line="40" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding>
-            <marker date="1575664177218" expanded="true" signature="435:457" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
-            <marker date="1575664177218" expanded="true" signature="435:735" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
-            <marker date="1575664177218" expanded="true" signature="704:735" ph="{&quot;@fortawesome/fontawesome-free&quot;: &quot;^5.7.1&quot;...}" />
+            <marker date="1575906695079" expanded="true" signature="435:457" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
+            <marker date="1575906695079" expanded="true" signature="435:735" ph="{&quot;electron&quot;: &quot;^4.0.2&quot;...}" />
+            <marker date="1575906695079" expanded="true" signature="704:735" ph="{&quot;@fortawesome/fontawesome-free&quot;: &quot;^5.7.1&quot;...}" />
           </folding>
         </state>
       </provider>
