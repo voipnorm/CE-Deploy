@@ -3,7 +3,8 @@
 
 Desktop application for deploying CE based device features to Webex Room devices.
 
-Deployment of the following features:
+Supports deployment of the following features:
+
 * Wallpapers
 * Macro Files
 * Touch 10 UI controls
@@ -13,15 +14,15 @@ Deployment of the following features:
 * Webex Board Touch 10 enablement
 * Disable Webex Assistant
 
-
 ## Business/Technical Challenge
 
-Not every feature and function of Webex Room devices is controllable from a administrative interface regardless of on-premise or in the cloud. 
-CE-Deploy helps to solve some of the most common or hard to deploy features at a large scale with a simple desktop tool.
-
+Not every feature and function of Webex Room devices is controllable from an administrative interface regardless of whether it is on-premise or in the cloud. 
+CE-Deploy helps to automate pushing some of the most common or hard to deploy features at a large scale with a simple desktop tool.
 
 ### Cisco Products Technologies/ Services
+
 CE-Deploy leverages the following technologies:
+
 * [Cisco Webex Room Devices](https://www.cisco.com/c/en/us/products/collaboration-endpoints/webex-room-series/index.html)
 * [Cisco Webex Cloud](https://collaborationhelp.cisco.com/article/en-us/n4lhv2s)
 * [Cisco Webex Room xAPI's](https://www.cisco.com/c/dam/en/us/td/docs/telepresence/endpoint/ce96/collaboration-endpoint-software-api-reference-guide-ce96.pdf)
@@ -35,29 +36,33 @@ CE-Deploy leverages the following technologies:
 
 ## Solution Components
 
-This solution is based on Electron which is built on JavaScript, Chrome and Nodejs.
-CE-Deploy is compatible with Cisco video devices running CE firmware 9.x and greater. Some
-features may support earlier versions of firmware including TC formware trains 
-but this has not been tested or supported.
+This solution is based on [Electron](https://www.electronjs.org/) which is built on JavaScript, Google Chrome and Nodejs.
 
-##Installation:
+CE-Deploy is compatible with Cisco video devices running CE firmware 9.x and greater. Some features may support earlier versions of firmware including TC firmware trains, but this has not been tested or supported.
 
-    git clone https://github.com/voipnorm/CE-Deploy.git
-    npm install
-    cd CE-Deploy
+## Installation:
+
+```bash
+git clone https://github.com/voipnorm/CE-Deploy.git
+npm install
+cd CE-Deploy
+```
     
 To run the project:
 
-    npm start
+```bash
+npm start
+```
 
 To perform a build:
 
-    npm run dist
-    
+```bash
+npm run dist
+```
+
 ## Usage
 
-CE-Deploy provides a desktop application for deploying the following features to CE 
-firmware based Cisco video endpoints in mass:
+CE-Deploy provides a desktop application for deploying the following features to CE firmware based Cisco video endpoints _en masse_:
 
 * Wallpapers
 * Macro Files
@@ -66,17 +71,18 @@ firmware based Cisco video endpoints in mass:
 * Digital Signage
 * Branding
 
-Many of these components can be deployed from CUCM or TMC but typically it is not an easy
-Task to perform or take multiple configuratio steps to complete. CE-Deploy makes it simple to 
-deploy to multiple endpoints.
+Many of these components can be deployed from CUCM or TMC but typically it is not an easy task to perform or takes multiple configuration steps to complete. CE-Deploy makes it simple to deploy to multiple endpoints.
 
 Components required to deploy various features:
 
 * CSV file with endpoints to be deployed.
 * Local user name and password for admin enabled account.
-## User Documentation
-User documentation for CE-Deploy is built into the tool. For reference check docs.html. 
 
-##License
+## User Documentation
+
+User documentation for CE-Deploy is built into the tool. For reference check `docs.html` 
+
+## License
+
 [CISCO SAMPLE CODE LICENSE](LICENSE.md) 
 
