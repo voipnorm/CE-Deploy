@@ -14,7 +14,7 @@
   "author": "Chris Norman",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^4.2.12",
+    "electron": "^9.4.0",
     "electron-builder": "^20.44.4"
   },
   "dependencies": {
