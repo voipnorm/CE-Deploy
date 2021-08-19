@@ -1,6 +1,9 @@
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/voipnorm/InRoom-Macro-Deployer)
 # CE Feature Deployment Tool (CE-Deploy)
 
+# This code is for demonstration purposes only and not regularly maintained. Check the releases section to find the latest build which have a regualr release cycle.
+# The code for the releases is maintained in a seperate private repo.
+
 Desktop application for deploying CE based device features to Webex Room devices.
 
 Deployment of the following features:
@@ -43,8 +46,8 @@ but this has not been tested or supported.
 ##Installation:
 
     git clone https://github.com/voipnorm/CE-Deploy.git
-    npm install
     cd CE-Deploy
+    npm install
     
 To run the project:
 
