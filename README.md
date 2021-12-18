@@ -43,7 +43,7 @@ CE-Deploy is compatible with Cisco video devices running CE firmware 9.x and gre
 features may support earlier versions of firmware including TC formware trains 
 but this has not been tested or supported.
 
-##Installation:
+## Installation:
 
     git clone https://github.com/voipnorm/CE-Deploy.git
     cd CE-Deploy
@@ -80,6 +80,6 @@ Components required to deploy various features:
 ## User Documentation
 User documentation for CE-Deploy is built into the tool. For reference check docs.html. 
 
-##License
+## License
 [CISCO SAMPLE CODE LICENSE](LICENSE.md) 
 
