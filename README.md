@@ -2,6 +2,9 @@
 # CE Feature Deployment Tool (CE-Deploy)
 
 # This code is for demonstration purposes only and not regularly maintained. Check the releases section to find the latest build for Mac and Windows which have a regular release cycle.
+
+[Releases](https://github.com/voipnorm/CE-Deploy/releases)
+
 # The code for the releases is maintained in a seperate private repo.
 
 Desktop application for deploying CE based device features to Webex Room devices.
