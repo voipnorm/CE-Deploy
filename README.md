@@ -45,7 +45,7 @@ Whether you're managing 10 devices or 10,000, CE-Deploy handles:
 | **UI Extensions** | ✅ | ✅ | Deploy Touch 10 / Navigator custom panels and controls. |
 | **Device Configuration** | ✅ | ✅ | Push xConfiguration settings in bulk — audio, video, network, peripherals, and more. |
 | **Digital Signage** | ✅ | ✅ | Configure web-based signage URLs, refresh intervals, and schedules for lobby displays. |
-| **Contacts / Phonebook** | ✅ | ❌ | Create and deploy phonebook directory structures with nested folders and speed dials. |
+| **Contacts / Phonebook** | ✅ | ✅ | Create and deploy phonebook directory structures with nested folders and speed dials. |
 | **Device Tags** | ✅ | ❌ | Manage and deploy Webex device tags at scale with tag schema templates. |
 | **Certificates** | ✅ | ❌ | Deploy CA and service certificates to devices in bulk. |
 
