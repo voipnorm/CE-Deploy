@@ -1,147 +1,101 @@
 <h1 align="center">CE-Deploy</h1>
 
 <p align="center">
-  <strong>Bulk deployment and management tool for Cisco Webex collaboration endpoints</strong>
+  <strong>Bulk deployment and management for Cisco collaboration endpoints</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/voipnorm/CE-Deploy/releases/latest"><img src="https://img.shields.io/github/v/release/voipnorm/CE-Deploy?style=flat-square&color=0078D4" alt="Latest Release"></a>
+  <a href="https://github.com/voipnorm/CE-Deploy/releases/latest"><img src="https://img.shields.io/github/v/release/voipnorm/CE-Deploy?style=flat-square&color=0078D4" alt="Latest release"></a>
   <a href="https://github.com/voipnorm/CE-Deploy/releases"><img src="https://img.shields.io/github/downloads/voipnorm/CE-Deploy/total?style=flat-square&color=2ea44f" alt="Downloads"></a>
-  <a href="https://github.com/voipnorm/CE-Deploy/stargazers"><img src="https://img.shields.io/github/stars/voipnorm/CE-Deploy?style=flat-square" alt="Stars"></a>
-  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows-lightgrey?style=flat-square" alt="Platform">
-  <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-Cisco%20Sample%20Code-blue?style=flat-square" alt="License"></a>
+  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows-lightgrey?style=flat-square" alt="macOS and Windows">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT License"></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/voipnorm/CE-Deploy/releases/latest">Download Latest Release</a> ·
-  <a href="#features">Features</a> ·
-  <a href="#getting-started">Getting Started</a> ·
-  <a href="#supported-devices">Supported Devices</a>
+  <a href="https://github.com/voipnorm/CE-Deploy/releases/latest"><strong>Download the latest release</strong></a>
 </p>
 
----
+## Official release repository
 
-## What is CE-Deploy?
+This is the official public distribution repository for **CE-Deploy**. It hosts supported installers, release notes, and the metadata used by the application's auto-update service.
 
-CE-Deploy is a desktop application for **bulk deploying configurations, content, and customizations** to Cisco Webex collaboration endpoints — RoomOS video devices and 9800 series phones alike. It eliminates the need to configure devices one at a time through Control Hub or CUCM by providing a single interface to push changes to your entire fleet.
+CE-Deploy's source code is maintained separately and is not published in this repository. You do not need to clone this repository, install npm packages, or build the application to use CE-Deploy.
 
-Whether you're managing 10 devices or 10,000, CE-Deploy handles:
-- **Cloud-registered** devices via the Webex Cloud API (OAuth)
-- **On-premises** devices via direct IP connectivity (SSH/HTTP)
+## About CE-Deploy
 
-> **This is a pre-built desktop application.** Download the installer from the [Releases](https://github.com/voipnorm/CE-Deploy/releases/latest) page — no source code, `npm install`, or build steps required.
+CE-Deploy is a desktop application for deploying configurations, content, and customizations across fleets of Cisco collaboration endpoints. It supports:
 
----
+- cloud-registered devices through the Webex Cloud API and OAuth;
+- on-premises devices through direct IP connectivity; and
+- RoomOS video devices and Cisco 9800 Series phones.
 
 ## Features
 
-### Deployment Capabilities
+### Deployment
 
-| Feature | Cloud | On-Prem | Description |
-|---------|:-----:|:-------:|-------------|
-| **Macros** | ✅ | ✅ | Deploy JavaScript macros to devices in bulk. Supports macro enable/disable, removal, and drift detection. |
-| **Branding** | ✅ | ✅ | Push custom branding packages (logos, background images, color schemes) to your fleet. |
-| **Wallpapers** | ✅ | ✅ | Deploy custom wallpaper images to device screens. |
-| **UI Extensions** | ✅ | ✅ | Deploy Touch 10 / Navigator custom panels and controls. |
-| **Device Configuration** | ✅ | ✅ | Push xConfiguration settings in bulk — audio, video, network, peripherals, and more. |
-| **Digital Signage** | ✅ | ✅ | Configure web-based signage URLs, refresh intervals, and schedules for lobby displays. |
-| **Contacts / Phonebook** | ✅ | ✅ | Create and deploy phonebook directory structures with nested folders and speed dials. |
-| **Device Tags** | ✅ | ❌ | Manage and deploy Webex device tags at scale with tag schema templates. |
-| **Certificates** | ✅ | ✅ | Deploy CA and service certificates to devices in bulk. |
+- JavaScript macros, including enable/disable, removal, and drift detection
+- Branding packages, wallpapers, and UI Extensions
+- Device configurations and digital-signage settings
+- Contacts and phonebooks
+- Device tags
+- CA and service certificates
 
-### Management Tools
+### Fleet management
 
-- **PhonePilot** — Live, interactive phone emulator for Webex 9800 series phones. View the screen, press buttons, and take screenshots remotely.
-- **Config Auditor** — Compare device configurations against a golden baseline. Detect drift across your fleet with category-level compliance scoring and CSV export.
-- **Macro Drift Detection** — Identify devices running out-of-date macros vs. approved baselines. View diffs and push corrections.
-- **Deployment Templates** — Save and reuse deployment configurations. Apply consistent settings across organizations with a single click.
-- **Template Chains** — Sequence multiple deployment templates into automated multi-step workflows.
-- **Deployment History** — Browse, search, and repeat past deployments. Full audit trail with one-click re-deploy.
-- **Tag Schema Builder** — Build structured tag schemas from cloud metadata (locations, products, room types) for organized fleet management.
-- **Deployment Scheduler** — Schedule deployments for future execution or set up recurring jobs.
-- **SSH Terminal** — Direct SSH access to on-premises devices for troubleshooting and ad-hoc commands.
+- **PhonePilot** for remote interaction with Cisco 9800 Series phones
+- **Config Auditor** for baseline comparison, drift detection, compliance scoring, and CSV export
+- Reusable deployment templates and multi-step template chains
+- Deployment history and scheduled or recurring jobs
+- Multi-organization management
+- SSH access for on-premises troubleshooting
 
-### Operational Features
+## Download and install
 
-- **Multi-Organization Support** — Switch between multiple Webex orgs and on-prem environments from a single app instance.
-- **Auto-Update** — Built-in update mechanism keeps CE-Deploy current with the latest features and fixes.
-- **Built-in Documentation** — Comprehensive help docs accessible directly within the application.
-- **What's New** — Version-gated feature announcements highlight new capabilities after each update.
-- **Office Hours & Scheduling** — Configure display standby schedules and office hours policies.
+Download CE-Deploy only from the [GitHub Releases page](https://github.com/voipnorm/CE-Deploy/releases/latest).
 
----
+| Platform | Release asset |
+| --- | --- |
+| macOS (Apple silicon and Intel) | `CE-Deploy-{version}-universal.dmg` |
+| Windows installer | `CE-Deploy-Installer.{version}.exe` |
+| Windows portable | `CE-Deploy-Portable.{version}.exe` |
 
-## Getting Started
+On macOS, open the DMG and drag CE-Deploy to Applications. On Windows, run the installer or use the portable executable.
 
-### 1. Download
+## Connect
 
-Go to the **[Releases](https://github.com/voipnorm/CE-Deploy/releases/latest)** page and download the installer for your platform:
+- **Webex cloud:** Sign in with a Webex administrator account through OAuth. CE-Deploy discovers the registered devices available to that account.
+- **On-premises:** Add devices by IP address, range, or CSV import and provide appropriate local administrator credentials.
 
-| Platform | File |
-|----------|------|
-| **macOS** (Apple Silicon & Intel) | `CE-Deploy-{version}-universal.dmg` |
-| **Windows** | `CE-Deploy-{version}-win-x64.exe` |
+## Supported devices
 
-### 2. Install
+CE-Deploy supports current Cisco collaboration endpoints running RoomOS and supported Cisco 9800 Series firmware, including:
 
-- **macOS**: Open the `.dmg` and drag CE-Deploy to your Applications folder.
-- **Windows**: Run the `.exe` installer. CE-Deploy will be added to your Start Menu.
+- Room, Board, and Desk Series endpoints;
+- Cisco Room Navigator controllers;
+- Cisco 9800 Series desk and wireless phones; and
+- supported legacy SX, MX, and DX endpoints running CE 9.x or later.
 
-### 3. Connect
+Device capabilities and Cisco platform support vary by model, firmware, and deployment mode.
 
-- **Cloud (Webex)**: Sign in with your Webex admin account via OAuth. CE-Deploy will automatically discover your registered devices.
-- **On-Premises**: Add an organization with device IPs (single IP, range, or CSV import) and local admin credentials.
+## System requirements
 
----
+- macOS 12 Monterey or later, on Apple silicon or Intel
+- Windows 10 or later, 64-bit
+- a Webex Full Administrator or Device Administrator account for cloud deployments
+- HTTP/HTTPS and SSH network access for applicable on-premises operations
 
-## Supported Devices
+## Updates
 
-CE-Deploy works with Cisco collaboration endpoints running **RoomOS** and **9800 series** firmware:
+CE-Deploy checks this repository's published releases for updates. Release assets include the installers and updater metadata required for supported macOS and Windows update paths. After the initial installation, the application can notify you when a newer release is available.
 
-- **Webex Room Series** — Room Kit, Room Kit Mini, Room Kit Plus, Room Kit Pro, Room 55, Room 70, Room Panorama
-- **Webex Board Series** — Board 55, Board 70, Board 85, Board Pro
-- **Webex Desk Series** — Desk, Desk Pro, Desk Mini, Desk Hub
-- **Cisco 9800 Series Phones** — 9841, 9851, 9861, 9871 (desk and wireless)
-- **Cisco Room Navigator** — Touch panel controller
-- **Legacy CE Devices** — SX, MX, and DX series (CE 9.x firmware or later)
+## Support and maintenance
 
----
-
-## Requirements
-
-- **macOS** 12 (Monterey) or later — Apple Silicon and Intel supported
-- **Windows** 10 or later (64-bit)
-- **Webex Admin Account** (for cloud deployments) with Full Administrator or Device Administrator role
-- **Network Access** to devices (for on-premises deployments) — HTTP/HTTPS and SSH
-
----
-
-## Auto-Update
-
-CE-Deploy includes a built-in auto-update service. When a new release is published here, the application will detect it and prompt you to update. No manual download required after initial install.
-
----
-
-## Source Code
-
-The source code for CE-Deploy is maintained in a **private repository**. This public repository hosts the release binaries, changelogs, and auto-update feed. If you have questions or feature requests, please open an [Issue](https://github.com/voipnorm/CE-Deploy/issues).
-
----
-
-## Team
-
-| Name | Role |
-|------|------|
-| **Chris Norman** | Lead Developer — Enterprise |
-
----
+CE-Deploy is maintained by **Chris Norman**. For release questions or support, use the contact options on the [maintainer's GitHub profile](https://github.com/voipnorm). When reporting a problem, include the CE-Deploy version, operating system, device model, and relevant non-sensitive error details.
 
 ## License
 
-This project is licensed under the [Cisco Sample Code License](LICENSE.md).
+The repository materials are available under the [MIT License](LICENSE). Copyright © Chris Norman.
 
----
+## Independent project
 
-<p align="center">
-  <sub>Built with Electron · Powered by the Webex Cloud API and xAPI</sub>
-</p>
+CE-Deploy is an independent project maintained and owned by Chris Norman. It is not affiliated with, endorsed by, sponsored by, or supported by Cisco Systems, Inc.
